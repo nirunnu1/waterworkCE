@@ -1,0 +1,96 @@
+﻿@using waterwork.Models;
+@Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "profile";
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.Items.AddEmptyItem();
+    settings.Width = Unit.Percentage(100);
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "ผู้ขอใช้บริการ";
+        g.ColCount = 2;
+        g.Items.Add(s =>
+        {
+            s.FieldName = "firstname";
+            s.Caption = "ชื่อ";
+
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.Label;
+            var set = s.NestedExtensionSettings as LabelSettings;
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "lastname";
+            s.Caption = "สกุล";
+
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.Label;
+            var set = s.NestedExtensionSettings as LabelSettings;
+        });
+    });
+
+}).Bind(customers.GetUserProfile(Url.RequestContext.RouteData.Values["id"].ToString())).GetHtml()
+@using (Html.BeginForm("AddServicesProfile", "Home", FormMethod.Post))
+{
+    @Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "formLayout";
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.Items.AddEmptyItem();
+    settings.Width = Unit.Percentage(100);
+    settings.Items.AddGroupItem(g =>
+    {
+        g.ColCount = 2;
+        g.Caption = "สถานที่ติดตั้ง";
+        g.Items.Add(s =>
+        {
+            s.FieldName = "meter_id";
+
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "house_id";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "village_id";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "place";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "amphur";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "province";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "service_date";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.DateEdit;
+            var set = s.NestedExtensionSettings as DateEditSettings;
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "status";
+
+        });
+        g.Items.Add(i =>
+        {
+            i.ShowCaption = DefaultBoolean.False;
+            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+            i.Width = 150;
+            i.NestedExtension().Button(s =>
+            {
+                s.Name = "applyButton";
+                s.Text = "Update Record";
+                s.UseSubmitBehavior = true;
+            });
+        });
+    });
+
+}).Bind(Model).GetHtml()
+}
+
+@Html.Action("AddServicesquantity")

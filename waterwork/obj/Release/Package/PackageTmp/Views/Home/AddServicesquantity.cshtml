@@ -1,0 +1,27 @@
+﻿@model IEnumerable<waterwork.Models.customer_services>
+
+@{
+    ViewBag.Title = "SearchUserProfile";
+}
+<div>ข้อมูลการขอใช้บริการ</div>
+@Html.DevExpress().GridView(
+    settings =>
+    {
+        settings.Name = "customers_se";
+        settings.KeyFieldName = "Uid";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewSearchUserProfilePartialView" };
+        settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+        settings.SettingsPager.PageSize = 50;
+        settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
+        settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
+        settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+        settings.ControlStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+        settings.Columns.Add("meter_id");
+        settings.Columns.Add("house_id");
+        settings.Columns.Add("village_id");
+        settings.Columns.Add("place");
+        settings.Columns.Add("amphur");
+        settings.Columns.Add("status");
+    }).Bind(Model).GetHtml()
+
+

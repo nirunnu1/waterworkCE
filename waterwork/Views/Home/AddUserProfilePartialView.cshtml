@@ -1,0 +1,92 @@
+﻿@model IEnumerable<waterwork.Models.customers>
+@{
+    ViewBag.Title = "AddUserProfilePartialView";
+}
+@using (Html.BeginForm("AddUserProfilePartialView", "Home", FormMethod.Post))
+{
+@Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "formLayout";
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.Items.AddEmptyItem();
+
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "ข้อมูลส่วนตัว";
+        g.ColCount = 2;
+        g.Items.Add(s =>
+        {
+            s.FieldName = "firstname";
+            s.Caption = "ชื่อ";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "lastname";
+            s.Caption = "นามสกุล";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "birthdate";
+            s.Caption = "วันเดือนปีเกิด";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.DateEdit;
+            var set = s.NestedExtensionSettings as DateEditSettings;
+
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "occupation";
+            s.Caption = "อาชีพ";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "Email";
+            s.Caption = "Email";
+        });
+    });
+
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "ที่อยู๋";
+        g.ColCount = 2;
+        g.Items.Add(s =>
+        {
+            s.FieldName = "house_id";
+            s.Caption = "เลขที่บ้าน";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "village_id";
+            s.Caption = "หมู่บ้าน";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "place";
+            s.Caption = "ตำบล";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "province";
+            s.Caption = "จังหวัด";
+        });
+
+        g.Items.Add(s =>
+        {
+            s.FieldName = "amphur";
+            s.Caption = "อำเภอ";
+        });
+    });
+
+    settings.Items.Add(i =>
+    {
+        i.ShowCaption = DefaultBoolean.False;
+        i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+        i.Width = 150;
+        i.NestedExtension().Button(s =>
+        {
+            s.Name = "applyButton";
+            s.Text = "Update Record";
+            s.UseSubmitBehavior = true;
+        });
+    });
+}).Bind(Model).GetHtml()
+}

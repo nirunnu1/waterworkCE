@@ -1,0 +1,42 @@
+﻿@model IEnumerable<waterwork.Models.customers>
+
+@{
+    ViewBag.Title = "SearchUserProfile";
+}
+@Html.DevExpress().GridView(
+    settings =>
+    {
+        settings.Name = "customers";
+        settings.KeyFieldName = "Uid";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewSearchUserProfilePartialView" };
+
+        settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+        settings.SettingsPager.PageSize = 50;
+        settings.SettingsSearchPanel.Visible = true;
+        settings.SettingsSearchPanel.ShowClearButton = true;
+        settings.SettingsSearchPanel.ShowApplyButton = true;
+        settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
+        settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
+        settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+        settings.ControlStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+        settings.Columns.Add("firstname");
+        settings.Columns.Add("lastname");
+        settings.Columns.Add("birthdate");
+        settings.Columns.Add("house_id");
+        settings.Columns.Add("village_id");
+        settings.Columns.Add("place");
+        settings.Columns.Add("amphur");
+        settings.Columns.Add("province");
+        settings.Columns.Add("occupation");
+        settings.Columns.Add("Email");
+        settings.Columns.Add(s =>
+        {
+            s.FieldName = "Uid";
+            s.ColumnType = MVCxGridViewColumnType.HyperLink;
+            var Set = s.PropertiesEdit as HyperLinkProperties;
+            String url = Url.Action("AddServicesProfile", "Home", new RouteValueDictionary(new { id = "{0}" }));
+            Set.NavigateUrlFormatString = HttpUtility.UrlDecode(url);
+            Set.Text = "เพิ่มจุดบริการ";
+        });
+    }).Bind(Model).GetHtml()
+

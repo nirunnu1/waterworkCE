@@ -1,0 +1,24 @@
+<div class="leftPanel">
+        @* DXCOMMENT: Configure the left panel's menu *@
+    @Html.DevExpress().NavBar(settings => {
+    settings.Name = "LeftNavBar";
+    settings.AutoCollapse = true;
+    settings.EnableAnimation = true;
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+    settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
+    settings.Groups.Add(group => {
+        group.Text = "จัดการผู้ใช้งาน";
+        group.Items.Add("ค้นหาประวัติผู้ใช้งาน", "", "", "~/Home/SearchUserProfile");
+        group.Items.Add("บันทึกข้อมูลผู้ใช้งาน", "", "", "~/Home/AddUserProfile");
+        group.Items.Add("ข้อมูลการขอใช้บริการ", "", "", "~/Home/Information");
+    });
+    settings.Groups.Add(group => {
+        group.Text = "ออกใบเสร็จ";
+        group.Items.Add("Item 1");
+        group.Items.Add("Item 2");
+
+    });
+}).GetHtml()
+</div>
+

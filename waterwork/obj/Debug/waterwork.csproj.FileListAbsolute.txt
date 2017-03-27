@@ -1,0 +1,722 @@
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\waterwork.dll.config
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\waterwork.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\waterwork.pdb
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Data.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Printing.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.RichEdit.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Utils.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxThemes.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.Mvc5.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\EntityFramework.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\EntityFramework.SqlServer.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Newtonsoft.Json.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Owin.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Net.Http.Formatting.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Helpers.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Http.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Http.WebHost.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Mvc.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Razor.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.WebPages.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.WebPages.Razor.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\WebMatrix.Data.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Office.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Pdf.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraCharts.v16.2.Web.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraCharts.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxHtmlEditor.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxPivotGrid.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.PivotGrid.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraReports.v16.2.Web.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxRichEdit.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxScheduler.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraScheduler.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxSpellChecker.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxSpreadsheet.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxTreeList.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraReports.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.SpellChecker.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Spreadsheet.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Charts.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.Resources.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.DataAccess.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Sparkline.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraGauges.v16.2.Core.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Xpo.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.CodeParser.v16.2.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\EntityFramework.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\EntityFramework.SqlServer.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\Newtonsoft.Json.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Net.Http.Formatting.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Helpers.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Http.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Http.WebHost.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Mvc.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.Razor.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.WebPages.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\System.Web.WebPages.Razor.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Utils.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Data.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.RichEdit.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Printing.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\WebMatrix.Data.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Office.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Pdf.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraCharts.v16.2.Web.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraCharts.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxHtmlEditor.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxPivotGrid.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.PivotGrid.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraReports.v16.2.Web.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxRichEdit.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxScheduler.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraScheduler.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxSpellChecker.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxSpreadsheet.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Web.ASPxTreeList.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraReports.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.SpellChecker.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Spreadsheet.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.DataAccess.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Sparkline.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.XtraGauges.v16.2.Core.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\DevExpress.Xpo.v16.2.xml
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Data.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Data.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Data.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Data.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Web.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Web.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Web.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Web.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Office.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.XtraCharts.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.XtraReports.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.DataAccess.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\de\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\es\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ja\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\bin\ru\DevExpress.Xpo.v16.2.resources.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\obj\Debug\waterwork.csprojResolveAssemblyReference.cache
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\obj\Debug\waterwork.dll
+C:\Users\Key\Documents\Visual Studio 2015\Projects\DXApplication16\waterwork\obj\Debug\waterwork.pdb
+C:\waterwork\DXApplication16\waterwork\bin\waterwork.dll.config
+C:\waterwork\DXApplication16\waterwork\bin\waterwork.dll
+C:\waterwork\DXApplication16\waterwork\bin\waterwork.pdb
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Data.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Printing.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.RichEdit.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Utils.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxThemes.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.Mvc5.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\EntityFramework.dll
+C:\waterwork\DXApplication16\waterwork\bin\EntityFramework.SqlServer.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Cookies.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Facebook.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Google.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.OAuth.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Twitter.dll
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Web.Infrastructure.dll
+C:\waterwork\DXApplication16\waterwork\bin\Newtonsoft.Json.dll
+C:\waterwork\DXApplication16\waterwork\bin\Owin.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Net.Http.Formatting.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Helpers.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Http.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Http.WebHost.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Mvc.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Razor.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.WebPages.Deployment.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.WebPages.dll
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.WebPages.Razor.dll
+C:\waterwork\DXApplication16\waterwork\bin\WebMatrix.Data.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Office.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Pdf.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraCharts.v16.2.Web.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraCharts.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxHtmlEditor.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxPivotGrid.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.PivotGrid.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraReports.v16.2.Web.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxRichEdit.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxScheduler.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraScheduler.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxSpellChecker.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxSpreadsheet.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxTreeList.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraReports.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.SpellChecker.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Spreadsheet.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Charts.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.Resources.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.DataAccess.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Sparkline.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraGauges.v16.2.Core.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Xpo.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.CodeParser.v16.2.dll
+C:\waterwork\DXApplication16\waterwork\bin\EntityFramework.xml
+C:\waterwork\DXApplication16\waterwork\bin\EntityFramework.SqlServer.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Cookies.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Facebook.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Google.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.OAuth.xml
+C:\waterwork\DXApplication16\waterwork\bin\Microsoft.Owin.Security.Twitter.xml
+C:\waterwork\DXApplication16\waterwork\bin\Newtonsoft.Json.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Net.Http.Formatting.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Helpers.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Http.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Http.WebHost.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Mvc.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.Razor.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.WebPages.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.WebPages.Deployment.xml
+C:\waterwork\DXApplication16\waterwork\bin\System.Web.WebPages.Razor.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Utils.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Data.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.RichEdit.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Printing.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\WebMatrix.Data.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Office.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Pdf.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraCharts.v16.2.Web.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraCharts.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxHtmlEditor.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxPivotGrid.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.PivotGrid.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraReports.v16.2.Web.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxRichEdit.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxScheduler.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraScheduler.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxSpellChecker.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxSpreadsheet.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Web.ASPxTreeList.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraReports.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.SpellChecker.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Spreadsheet.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.DataAccess.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Sparkline.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.XtraGauges.v16.2.Core.xml
+C:\waterwork\DXApplication16\waterwork\bin\DevExpress.Xpo.v16.2.xml
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Utils.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Utils.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Utils.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Utils.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Data.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Data.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Data.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Data.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Web.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Web.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Web.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Web.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Office.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Office.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Office.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Office.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.XtraCharts.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.XtraCharts.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.XtraCharts.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.XtraCharts.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.XtraReports.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.XtraReports.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.XtraReports.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.XtraReports.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.DataAccess.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.DataAccess.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.DataAccess.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.DataAccess.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\de\DevExpress.Xpo.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\es\DevExpress.Xpo.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ja\DevExpress.Xpo.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\bin\ru\DevExpress.Xpo.v16.2.resources.dll
+C:\waterwork\DXApplication16\waterwork\obj\Debug\waterwork.csprojResolveAssemblyReference.cache
+C:\waterwork\DXApplication16\waterwork\obj\Debug\waterwork.dll
+C:\waterwork\DXApplication16\waterwork\obj\Debug\waterwork.pdb
+C:\waterwork\waterwork\waterwork\bin\waterwork.dll.config
+C:\waterwork\waterwork\waterwork\bin\waterwork.dll
+C:\waterwork\waterwork\waterwork\bin\waterwork.pdb
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Charts.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Data.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Office.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.PivotGrid.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Printing.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.RichEdit.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Sparkline.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Utils.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxThemes.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.Mvc5.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraCharts.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraGauges.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraReports.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\EntityFramework.dll
+C:\waterwork\waterwork\waterwork\bin\EntityFramework.SqlServer.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.AspNet.Identity.Core.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.Cookies.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.Facebook.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.Google.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.OAuth.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.Twitter.dll
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Web.Infrastructure.dll
+C:\waterwork\waterwork\waterwork\bin\Newtonsoft.Json.dll
+C:\waterwork\waterwork\waterwork\bin\Owin.dll
+C:\waterwork\waterwork\waterwork\bin\System.Net.Http.Formatting.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.Helpers.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.Http.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.Http.WebHost.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.Mvc.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.Razor.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.WebPages.Deployment.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.WebPages.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.WebPages.Razor.dll
+C:\waterwork\waterwork\waterwork\bin\WebMatrix.Data.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.DataAccess.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Pdf.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraCharts.v16.2.Web.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxHtmlEditor.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxPivotGrid.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraReports.v16.2.Web.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxRichEdit.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxScheduler.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraScheduler.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxSpellChecker.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxSpreadsheet.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxTreeList.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.SpellChecker.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Spreadsheet.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Xpo.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.CodeParser.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.Resources.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Office.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.PivotGrid.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Sparkline.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraCharts.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraGauges.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraReports.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\EntityFramework.xml
+C:\waterwork\waterwork\waterwork\bin\EntityFramework.SqlServer.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.AspNet.Identity.Core.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.Cookies.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.Facebook.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.Google.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.OAuth.xml
+C:\waterwork\waterwork\waterwork\bin\Microsoft.Owin.Security.Twitter.xml
+C:\waterwork\waterwork\waterwork\bin\Newtonsoft.Json.xml
+C:\waterwork\waterwork\waterwork\bin\System.Net.Http.Formatting.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.Helpers.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.Http.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.Http.WebHost.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.Mvc.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.Razor.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.WebPages.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.WebPages.Deployment.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.WebPages.Razor.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Utils.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Data.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.RichEdit.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Printing.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\WebMatrix.Data.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.DataAccess.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Pdf.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraCharts.v16.2.Web.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxHtmlEditor.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxPivotGrid.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraReports.v16.2.Web.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxRichEdit.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxScheduler.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraScheduler.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxSpellChecker.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxSpreadsheet.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Web.ASPxTreeList.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.SpellChecker.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Spreadsheet.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Xpo.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Office.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Office.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Office.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Office.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.PivotGrid.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraCharts.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraCharts.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraCharts.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraCharts.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraGauges.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraReports.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraReports.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraReports.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraReports.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Utils.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Utils.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Utils.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Utils.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Data.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Data.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Data.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Data.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.RichEdit.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Web.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Web.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Web.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Web.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.DataAccess.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.DataAccess.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.DataAccess.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.DataAccess.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Web.ASPxHtmlEditor.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraReports.v16.2.Web.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Web.ASPxRichEdit.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Web.ASPxScheduler.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraScheduler.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Web.ASPxSpellChecker.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Web.ASPxSpreadsheet.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Web.ASPxTreeList.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Spreadsheet.v16.2.Core.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Xpo.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Xpo.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Xpo.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Xpo.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\obj\Debug\waterwork.csprojResolveAssemblyReference.cache
+C:\waterwork\waterwork\waterwork\obj\Debug\waterwork.dll.licenses
+C:\waterwork\waterwork\waterwork\obj\Debug\waterwork.dll
+C:\waterwork\waterwork\waterwork\obj\Debug\waterwork.pdb
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraReports.v16.2.Extensions.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraReports.v16.2.Service.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Utils.v16.2.UI.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraEditors.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.DataAccess.v16.2.UI.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraBars.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraTreeList.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraPrinting.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraRichEdit.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraCharts.v16.2.Extensions.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraPivotGrid.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraNavBar.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraVerticalGrid.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraLayout.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraGrid.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraCharts.v16.2.Wizard.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Diagram.v16.2.Core.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraDiagram.v16.2.dll
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraReports.v16.2.Extensions.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraReports.v16.2.Service.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Utils.v16.2.UI.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraEditors.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.DataAccess.v16.2.UI.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraBars.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraTreeList.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraPrinting.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraRichEdit.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraPivotGrid.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraNavBar.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraVerticalGrid.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraLayout.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraGrid.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraCharts.v16.2.Wizard.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.Diagram.v16.2.Core.xml
+C:\waterwork\waterwork\waterwork\bin\DevExpress.XtraDiagram.v16.2.xml
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraReports.v16.2.Extensions.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.Utils.v16.2.UI.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.Utils.v16.2.UI.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.Utils.v16.2.UI.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.Utils.v16.2.UI.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraEditors.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraEditors.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraEditors.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraEditors.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.DataAccess.v16.2.UI.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraBars.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraBars.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraBars.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraBars.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraTreeList.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraPrinting.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraRichEdit.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraPivotGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraNavBar.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraVerticalGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraLayout.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraLayout.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraLayout.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraLayout.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraGrid.v16.2.resources.dll
+C:\waterwork\waterwork\waterwork\bin\de\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\waterwork\waterwork\waterwork\bin\es\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ja\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\waterwork\waterwork\waterwork\bin\ru\DevExpress.XtraCharts.v16.2.Wizard.resources.dll
+C:\waterwork\waterwork\waterwork\bin\Antlr3.Runtime.dll
+C:\waterwork\waterwork\waterwork\bin\DevExtreme.AspNet.Mvc.dll
+C:\waterwork\waterwork\waterwork\bin\System.Web.Optimization.dll
+C:\waterwork\waterwork\waterwork\bin\WebGrease.dll
+C:\waterwork\waterwork\waterwork\bin\Antlr3.Runtime.pdb
+C:\waterwork\waterwork\waterwork\bin\DevExtreme.AspNet.Mvc.xml
+C:\waterwork\waterwork\waterwork\bin\System.Web.Optimization.xml
+C:\waterwork\waterwork\waterwork\obj\Debug\XtraReport1.resources
+C:\waterwork\waterwork\waterwork\obj\Debug\waterwork.csproj.GenerateResource.Cache
