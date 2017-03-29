@@ -14,9 +14,8 @@
         group.Items.Add("ข้อมูลการขอใช้บริการ", "", "", "~/Home/Information");
     });
     settings.Groups.Add(group => {
-        group.Text = "ออกใบเสร็จ";
-        group.Items.Add("Item 1");
-        group.Items.Add("Item 2");
+        group.Text = "เก็บข้อมูลน้ำประปา";
+        group.Items.Add("เก็บข้อมูลน้ำประปา", "", "", "~/Water_usage/Water_usage");
 
     });
 }).GetHtml()

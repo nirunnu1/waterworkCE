@@ -549,3 +549,6 @@ C:\waterwork\waterwork\Program\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
 C:\waterwork\waterwork\Program\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
 C:\waterwork\waterwork\Program\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
 C:\waterwork\waterwork\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
+C:\waterwork\waterworkCE\Program\bin\Debug\Program.exe.config
+C:\waterwork\waterworkCE\Program\obj\Debug\Program.exe
+C:\waterwork\waterworkCE\Program\obj\Debug\Program.pdb

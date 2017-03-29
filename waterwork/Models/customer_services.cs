@@ -1,4 +1,4 @@
-Ôªøusing System;
+using System;
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -10,27 +10,27 @@ namespace waterwork.Models
     {
         [Key]
         public Guid Uid { get; set; }
-        [Display(Name = "‡∏£‡∏´‡∏±‡∏™‡∏ú‡∏π‡πâ‡πÉ‡∏ä‡πâ‡∏á‡∏≤‡∏ô")]
+        [Display(Name = "√À— ºŸÈ„™Èß“π")]
         [Required]
         [ForeignKey("customer")]
         public Guid customer_id { get; set; }
-        [Display(Name = "‡πÄ‡∏•‡∏Ç‡∏°‡∏¥‡∏™‡πÄ‡∏ï‡∏≠")]
+        [Display(Name = "‡≈¢¡‘ ‡µÕ")]
         public int meter_id { get; set; }
-        [Display(Name = "‡∏ß‡∏±‡∏ô‡∏ó‡∏µ‡πà‡∏Ç‡∏≠‡πÉ‡∏ä‡πâ‡∏á‡∏≤‡∏ô")]
+        [Display(Name = "«—π∑’Ë¢Õ„™Èß“π")]
         public DateTime service_date { get; set; }
-        [Display(Name = "‡∏ö‡πâ‡∏≤‡∏ô‡πÄ‡∏•‡∏Ç‡∏ó‡∏µ‡πà")]
+        [Display(Name = "∫È“π‡≈¢∑’Ë")]
         [Required]
         public string house_id { get; set; }
-        [Display(Name = "‡∏´‡∏°‡∏π‡πà‡∏ó‡∏µ‡πà‡πà")]
+        [Display(Name = "À¡ŸË∑’ËË")]
         [Required]
         public string village_id { get; set; }
-        [Display(Name = "‡∏ï‡∏≥‡∏ö‡∏•")]
+        [Display(Name = "µ”∫≈")]
         [Required]
         public string place { get; set; }
-        [Display(Name = "‡∏≠‡∏≥‡πÄ‡∏†‡∏≠")]
+        [Display(Name = "Õ”‡¿Õ")]
         [Required]
         public string amphur { get; set; }
-        [Display(Name = "‡∏à‡∏±‡∏á‡∏´‡∏ß‡∏±‡∏î")]
+        [Display(Name = "®—ßÀ«—¥")]
         [Required]
         public string province { get; set; }
         public Status status { get; set; }

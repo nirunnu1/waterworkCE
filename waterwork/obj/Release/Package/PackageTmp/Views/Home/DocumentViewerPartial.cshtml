@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "DocumentViewerPartial";
+
+}
+@Html.DevExpress().DocumentViewer(settings =>
+{
+    settings.Name = "DocumentViewerPartial";
+    settings.Width = Unit.Percentage(100);
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "DocumentViewerPartial" };
+    settings.ExportRouteValues = new { Controller = "Home", Action = "ExportDocumentViewer" };
+    settings.ToolbarMode = DevExpress.XtraReports.Web.DocumentViewer.DocumentViewerToolbarMode.ExternalRibbon;
+    settings.Report = new XtraReport1()
+    {
+        DataSource = Model
+    };
+}).GetHtml()
+
+

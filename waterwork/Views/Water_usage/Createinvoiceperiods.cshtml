@@ -1,0 +1,38 @@
+﻿
+
+@using (Html.BeginForm("Createinvoiceperiods", "Water_usage"))
+{
+    @Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "formLayout";
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.Items.AddEmptyItem();
+
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "งวดการออกใบแจ้งหนี้";
+        g.ColCount = 2;
+        g.Items.Add(s =>
+        {
+            s.FieldName = "date";
+            s.Caption = "วันที่";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.DateEdit;
+            var set = s.NestedExtensionSettings as DateEditSettings;
+
+        });
+        g.Items.Add(i =>
+        {
+            i.ShowCaption = DefaultBoolean.False;
+            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+            i.Width = 150;
+            i.NestedExtension().Button(s =>
+            {
+                s.Name = "applyButton";
+                s.Text = "ตกลง";
+                s.UseSubmitBehavior = true;
+            });
+        });
+    });
+}).GetHtml();
+
+}

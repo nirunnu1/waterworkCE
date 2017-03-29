@@ -1,0 +1,40 @@
+﻿
+
+@using (Html.BeginForm("Water_usage", "Water_usage"))
+{
+    @Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "formLayout";
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.Items.AddEmptyItem();
+
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "วันที่เก็บข้อมูล";
+        g.ColCount = 2;
+        g.Items.Add(s =>
+        {
+            s.FieldName = "item";
+            s.Caption = "งวดการออกใบแจ้งหนี้";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
+            var set = s.NestedExtensionSettings as ComboBoxSettings;
+            set.Properties.DataSource = waterwork.DAL.DALCreateinvoiceperiods.Getinvoiceperiods();
+            set.Properties.ValueField = "Uid";
+            set.Properties.TextField = "date";
+        });
+        g.Items.Add(i =>
+        {
+            i.ShowCaption = DefaultBoolean.False;
+            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+            i.Width = 150;
+            i.NestedExtension().Button(s =>
+            {
+                s.Name = "applyButton";
+                s.Text = "ตกลง";
+                s.UseSubmitBehavior = true;
+            });
+        });
+    });
+}).GetHtml();
+
+}

@@ -363,6 +363,9 @@
     <Content Include="Views\Home\Information.cshtml" />
     <Content Include="Views\Home\DocumentViewerPartial.cshtml" />
     <Content Include="Views\Home\ReportView.cshtml" />
+    <Content Include="Views\Water_usage\Water_usage.cshtml" />
+    <Content Include="Views\Water_usage\Water_usageAdd.cshtml" />
+    <Content Include="Views\Water_usage\Createinvoiceperiods.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -379,12 +382,19 @@
     <Compile Include="Config.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Water_usageController.cs" />
+    <Compile Include="DAL\DALCreateinvoiceperiods.cs" />
+    <Compile Include="DAL\DALWater_usage.cs" />
+    <Compile Include="DAL\Enumeration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\bill_Water_usage.cs" />
+    <Compile Include="Models\Createinvoiceperiods.cs" />
     <Compile Include="Models\customers.cs" />
     <Compile Include="Models\customer_services.cs" />
+    <Compile Include="Models\Water_usage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="XtraReport1.cs">

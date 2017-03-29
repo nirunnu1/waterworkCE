@@ -1,0 +1,45 @@
+﻿@ViewBag.time 
+@using (Html.BeginForm("Water_usageadd", "Water_usage", FormMethod.Post))
+{
+    @Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "formLayout";
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.Items.AddEmptyItem();
+
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "วันที่เก็บข้อมูล";
+        g.ColCount = 2;
+        g.Items.Add(s =>
+        {
+            s.FieldName = "customer_services_id";
+            s.Caption = "customer_services_id";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
+            var set = s.NestedExtensionSettings as ComboBoxSettings;
+            set.Properties.DataSource = waterwork.Models.customer_services.Getcustomer_servicesRady();
+            set.Properties.ValueField = "Uid";
+            set.Properties.TextField = "meter_id";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "water_Unit";
+            s.Caption = "water_Unit";
+
+        });
+        g.Items.Add(i =>
+        {
+            i.ShowCaption = DefaultBoolean.False;
+            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+            i.Width = 150;
+            i.NestedExtension().Button(s =>
+            {
+                s.Name = "applyButton";
+                s.Text = "ตกลง";
+                s.UseSubmitBehavior = true;
+            });
+        });
+    });
+}).GetHtml();
+
+}
