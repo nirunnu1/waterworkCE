@@ -6,7 +6,9 @@
     settings.Name = "formLayout";
     settings.AlignItemCaptionsInAllGroups = true;
     settings.Items.AddEmptyItem();
-
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.SettingsAdaptivity.AdaptivityMode = FormLayoutAdaptivityMode.SingleColumnWindowLimit;
+    settings.SettingsAdaptivity.SwitchToSingleColumnAtWindowInnerWidth = 800;
     settings.Items.AddGroupItem(g =>
     {
         g.Caption = "วันที่เก็บข้อมูล";
@@ -14,7 +16,7 @@
         g.Items.Add(s =>
         {
             s.FieldName = "customer_services_id";
-            s.Caption = "customer_services_id";
+            s.Caption = "รหัสมิสเตอร์";
             s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
             var set = s.NestedExtensionSettings as ComboBoxSettings;
             set.Properties.DataSource = waterwork.Models.customer_services.Getcustomer_services();
@@ -25,7 +27,7 @@
         g.Items.Add(s =>
         {
             s.FieldName = "water_Unit";
-            s.Caption = "water_Unit";
+            s.Caption = "หน่วยที่ใช้";
 
         });
         g.Items.Add(i =>

@@ -7,7 +7,9 @@
     settings.Name = "formLayout";
     settings.AlignItemCaptionsInAllGroups = true;
     settings.Items.AddEmptyItem();
-    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+
+    settings.SettingsAdaptivity.AdaptivityMode = FormLayoutAdaptivityMode.SingleColumnWindowLimit;
+    settings.SettingsAdaptivity.SwitchToSingleColumnAtWindowInnerWidth = 800;
     settings.Items.AddGroupItem(g =>
     {
         g.Caption = "งวดการออกใบแจ้งหนี้";

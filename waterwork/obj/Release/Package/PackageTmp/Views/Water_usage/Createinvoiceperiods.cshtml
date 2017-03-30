@@ -8,6 +8,8 @@
     settings.AlignItemCaptionsInAllGroups = true;
     settings.Items.AddEmptyItem();
 
+    settings.SettingsAdaptivity.AdaptivityMode = FormLayoutAdaptivityMode.SingleColumnWindowLimit;
+    settings.SettingsAdaptivity.SwitchToSingleColumnAtWindowInnerWidth = 800;
     settings.Items.AddGroupItem(g =>
     {
         g.Caption = "งวดการออกใบแจ้งหนี้";

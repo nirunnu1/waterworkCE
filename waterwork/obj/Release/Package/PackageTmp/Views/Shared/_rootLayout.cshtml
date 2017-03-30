@@ -7,40 +7,52 @@
     <title>@ViewBag.Title</title>
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
 
-    
-             @Html.DevExpress().GetStyleSheets(
+
+    @Html.DevExpress().GetStyleSheets(
     new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
-    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView }
+    new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
+new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+new StyleSheet { ExtensionSuite = ExtensionSuite.GridView }
 )
-            <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")" type="text/javascript"></script>
-            @Html.DevExpress().GetScripts(
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")" type="text/javascript"></script>
+    @Html.DevExpress().GetScripts(
     new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
-    new Script { ExtensionSuite = ExtensionSuite.GridView }
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+new Script { ExtensionSuite = ExtensionSuite.RichEdit },
+new Script { ExtensionSuite = ExtensionSuite.Report },
+new Script { ExtensionSuite = ExtensionSuite.GridView }
 )
+
 </head>
 <body>
-    @Html.DevExpress().Panel(settings => {
-        settings.Name = "HeaderPane";
-        settings.FixedPosition = PanelFixedPosition.WindowTop;
-        settings.Collapsible = true;
-        settings.SettingsAdaptivity.CollapseAtWindowInnerWidth = 500;
-        settings.ControlStyle.CssClass = "headerPane";
-        settings.Styles.Panel.CssClass = "panel";
-        settings.Styles.ExpandedPanel.CssClass = "expandedPanel";
-        settings.Styles.ExpandBar.CssClass = "bar";
-        settings.SetContent(() => {
-            Html.RenderPartial("HeaderPartialView", HeaderViewRenderMode.Full);
-        });
-        settings.SetExpandBarTemplateContent((c) => {
-            Html.RenderPartial("HeaderPartialView", HeaderViewRenderMode.Title);
-        });
-    }).GetHtml()
+    @Html.DevExpress().Panel(settings =>
+{
+    settings.Name = "HeaderPane";
+    settings.FixedPosition = PanelFixedPosition.WindowTop;
+    settings.Collapsible = true;
+    settings.SettingsAdaptivity.CollapseAtWindowInnerWidth = 500;
+    settings.ControlStyle.CssClass = "headerPane";
+    settings.Styles.Panel.CssClass = "panel";
+    settings.Styles.ExpandedPanel.CssClass = "expandedPanel";
+    settings.Styles.ExpandBar.CssClass = "bar";
+    settings.SetContent(() =>
+    {
+        Html.RenderPartial("HeaderPartialView", HeaderViewRenderMode.Full);
+    });
+    settings.SetExpandBarTemplateContent((c) =>
+    {
+        Html.RenderPartial("HeaderPartialView", HeaderViewRenderMode.Title);
+    });
+}).GetHtml()
 
     <script type="text/javascript">
-        function updateHeaderMenuOrientation(){
-            if(!window.HeaderMenu) return;
+        function updateHeaderMenuOrientation() {
+            if (!window.HeaderMenu) return;
             var orientation = HeaderPane.IsExpandable() ? 'Vertical' : 'Horizontal';
-            if(orientation !== HeaderMenu.GetOrientation())
+            if (orientation !== HeaderMenu.GetOrientation())
                 HeaderMenu.SetOrientation(orientation);
         }
         var collection = ASPxClientControl.GetControlCollection();
@@ -48,13 +60,14 @@
         collection.BrowserWindowResized.AddHandler(updateHeaderMenuOrientation);
     </script>
 
-    @Html.DevExpress().Panel(settings => {
-        settings.Name = "MainPane";
-        settings.ControlStyle.CssClass = "mainContentPane";
-        settings.SetContent(RenderBody().ToHtmlString());
-    }).GetHtml()
+    @Html.DevExpress().Panel(settings =>
+{
+    settings.Name = "MainPane";
+    settings.ControlStyle.CssClass = "mainContentPane";
+    settings.SetContent(RenderBody().ToHtmlString());
+}).GetHtml()
 
-    
+
 
 </body>
 </html>
