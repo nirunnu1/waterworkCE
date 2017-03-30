@@ -15,8 +15,9 @@
     });
     settings.Groups.Add(group => {
         group.Text = "เก็บข้อมูลน้ำประปา";
+        group.Items.Add("สร้างงวดการออกใบแจ้งหนี้", "", "", "~/Water_usage/Createinvoiceperiods");
         group.Items.Add("เก็บข้อมูลน้ำประปา", "", "", "~/Water_usage/Water_usage");
-
+        
     });
 }).GetHtml()
 </div>

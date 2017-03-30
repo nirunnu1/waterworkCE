@@ -1,6 +1,6 @@
 ﻿
 
-@using (Html.BeginForm("Water_usage", "Water_usage"))
+@using (Html.BeginForm("Createinvoiceperiods", "Water_usage"))
 {
     @Html.DevExpress().FormLayout(settings =>
 {
@@ -10,17 +10,15 @@
 
     settings.Items.AddGroupItem(g =>
     {
-        g.Caption = "วันที่เก็บข้อมูล";
+        g.Caption = "งวดการออกใบแจ้งหนี้";
         g.ColCount = 2;
         g.Items.Add(s =>
         {
-            s.FieldName = "item";
-            s.Caption = "งวดการออกใบแจ้งหนี้";
-            s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
-            var set = s.NestedExtensionSettings as ComboBoxSettings;
-            set.Properties.DataSource = waterwork.DAL.DALCreateinvoiceperiods.Getinvoiceperiods();
-            set.Properties.ValueField = "Uid";
-            set.Properties.TextField = "date";
+            s.FieldName = "date";
+            s.Caption = "วันที่";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.DateEdit;
+            var set = s.NestedExtensionSettings as DateEditSettings;
+
         });
         g.Items.Add(i =>
         {

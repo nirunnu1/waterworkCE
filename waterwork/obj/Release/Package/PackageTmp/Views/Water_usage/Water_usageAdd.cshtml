@@ -1,4 +1,4 @@
-﻿@ViewBag.time 
+﻿
 @using (Html.BeginForm("Water_usageadd", "Water_usage", FormMethod.Post))
 {
     @Html.DevExpress().FormLayout(settings =>
@@ -17,9 +17,10 @@
             s.Caption = "customer_services_id";
             s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
             var set = s.NestedExtensionSettings as ComboBoxSettings;
-            set.Properties.DataSource = waterwork.Models.customer_services.Getcustomer_servicesRady();
+            set.Properties.DataSource = waterwork.Models.customer_services.Getcustomer_services();
             set.Properties.ValueField = "Uid";
             set.Properties.TextField = "meter_id";
+
         });
         g.Items.Add(s =>
         {
