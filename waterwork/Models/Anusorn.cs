@@ -7,5 +7,6 @@ namespace waterwork.Models
 {
     public class Anusorn
     {
+        Console.println("Hello");
     }
 }
