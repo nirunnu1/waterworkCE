@@ -394,7 +394,6 @@
     <Compile Include="Models\Createinvoiceperiods.cs" />
     <Compile Include="Models\customers.cs" />
     <Compile Include="Models\customer_services.cs" />
-    <Compile Include="Models\Nirun.cs" />
     <Compile Include="Models\Water_usage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

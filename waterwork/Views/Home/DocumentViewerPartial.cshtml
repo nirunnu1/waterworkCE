@@ -9,11 +9,10 @@
     settings.Width = Unit.Percentage(100);
     settings.CallbackRouteValues = new { Controller = "Home", Action = "DocumentViewerPartial" };
     settings.ExportRouteValues = new { Controller = "Home", Action = "ExportDocumentViewer" };
-    settings.ToolbarMode = DevExpress.XtraReports.Web.DocumentViewer.DocumentViewerToolbarMode.ExternalRibbon;
+    settings.ToolbarMode = DocumentViewerToolbarMode.ExternalRibbon;
     settings.Report = new XtraReport1()
     {
         DataSource = Model
     };
+    settings.AssociatedRibbonName = "Ribbon";
 }).GetHtml()
-
-

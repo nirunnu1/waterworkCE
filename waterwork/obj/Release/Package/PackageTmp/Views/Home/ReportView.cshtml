@@ -1,3 +1,31 @@
 ﻿
+@Html.DevExpress().Ribbon(settings =>
+{
+    settings.Name = "Ribbon";
+    settings.AllowMinimize = false;
+    settings.ShowFileTab = false;
+    settings.ShowGroupLabels = false;
+    settings.Width = Unit.Percentage(100);
+    var tabs = DocumentViewerExtension.DefaultRibbonTabs;
+    var items = tabs
+        .SelectMany(x => x.Groups)
+        .SelectMany(x => x.Items);
 
+    var dropDownSubItems = items
+        .OfType<DevExpress.XtraReports.Web.DocumentViewer.Ribbon.DocumentViewerRibbonDropDownButtonBase>()
+        .SelectMany(x => x.Items);
+
+    var excludedSubItems = dropDownSubItems
+        .Where(x => x is RibbonXlsFormatCommand
+          || x is RibbonMhtFormatCommand
+          || x is RibbonHtmlFormatCommand
+          || x is RibbonPngFormatCommand);
+
+    foreach (var item in excludedSubItems)
+    {
+        item.Visible = false;
+    }
+
+    settings.Tabs.AddRange(tabs);
+}).GetHtml()
 @Html.Partial("DocumentViewerPartial")
