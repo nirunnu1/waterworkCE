@@ -1,0 +1,14 @@
+﻿@{
+    @Html.DevExpress().ComboBox(settings =>
+{
+    settings.Name = "place_id";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "Cb_place" };
+    settings.Width = Unit.Percentage(100);
+    settings.Properties.TextField = "Name";
+    settings.Properties.ValueField = "ID";
+    settings.Properties.EnableCallbackMode = true;
+    settings.Properties.CallbackPageSize = 20;
+    settings.Properties.ClientSideEvents.BeginCallback = "function(s, e) {  e.customArgs['place'] = amphur_id.GetValue(); }";
+}).BindList(Model).GetHtml()
+}
+

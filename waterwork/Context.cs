@@ -16,10 +16,12 @@ namespace waterwork
         }
         public DbSet<customers> customers { get; set; }
         public DbSet<customer_services> customer_services { get; set; }
-
         public DbSet<bill_Water_usage> bill_Water_usage { get; set; }
         public DbSet<Water_usage> Water_usage { get; set; }
         public DbSet<Createinvoiceperiods> Createinvoiceperiods { get; set; }
+        public DbSet<place> place { get; set; }
+        public DbSet<amphur> amphur { get; set; }
+        public DbSet<province> province { get; set; }
 
 
     }

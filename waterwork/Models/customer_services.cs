@@ -10,10 +10,13 @@ namespace waterwork.Models
     {
         [Key]
         public Guid Uid { get; set; }
+
         [Display(Name = "รหัสผู้ใช้งาน")]
         [Required]
         [ForeignKey("customer")]
         public Guid customer_id { get; set; }
+        public virtual customers customer { get; set; }
+
         [Display(Name = "เลขมิสเตอ")]
         public int meter_id { get; set; }
         [Display(Name = "วันที่ขอใช้งาน")]
@@ -24,17 +27,23 @@ namespace waterwork.Models
         [Display(Name = "หมู่ที่่")]
         [Required]
         public string village_id { get; set; }
+
         [Display(Name = "ตำบล")]
-        [Required]
-        public string place { get; set; }
+        [ForeignKey("place")]
+        public int? place_id { get; set; }
+        public virtual place place { get; set; }
+
         [Display(Name = "อำเภอ")]
-        [Required]
-        public string amphur { get; set; }
+        [ForeignKey("amphur")]
+        public int? amphur_id { get; set; }
+        public virtual amphur amphur { get; set; }
+
         [Display(Name = "จังหวัด")]
-        [Required]
-        public string province { get; set; }
+        [ForeignKey("province")]
+        public int? province_id { get; set; }
+        public virtual province province { get; set; }
+
         public Status status { get; set; }
-        public virtual customers customer { get; set; }
         public enum Status { Wait = 0, ready = 1 }
         public static IEnumerable Getcustomer_services()
         {

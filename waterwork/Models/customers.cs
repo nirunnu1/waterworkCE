@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
 namespace waterwork.Models
@@ -25,20 +26,30 @@ namespace waterwork.Models
         [Display(Name = "หมู่ที่่")]
         [Required]
         public string village_id { get; set; }
+
         [Display(Name = "ตำบล")]
-        [Required]
-        public string place { get; set; }
+        [ForeignKey("place")]
+        public int? place_id { get; set; }
+        public virtual place place { get; set; }
+
         [Display(Name = "อำเภอ")]
-        [Required]
-        public string amphur { get; set; }
+        [ForeignKey("amphur")]
+        public int? amphur_id { get; set; }
+        public virtual amphur amphur { get; set; }
+
         [Display(Name = "จังหวัด")]
-        [Required]
-        public string province { get; set; }
+
+        [ForeignKey("province")]
+        public int? province_id { get; set; }
+        public virtual province province { get; set; }
+
+
         [Display(Name = "อาชีพ")]
         public string occupation { get; set; }
         [Display(Name = "Email address")]
         [RegularExpression("\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*", ErrorMessage = "Email is invalid")]
         public string Email { get; set; }
+
         public ICollection<customer_services> customer_services { get; set; }
 
         public static IEnumerable GetSearchUserProfile()

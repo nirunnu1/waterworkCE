@@ -94,8 +94,20 @@ namespace waterwork.Controllers
             report.DataSource = pro;
             return ReportViewerExtension.ExportTo(report);
         }
-
-
+        public ActionResult cb_province()
+        {
+            return PartialView(waterwork.DAL.DALprovince.Getprovince());
+        }
+        public ActionResult Cb_amphur()
+        {
+            int amphur_id =Convert.ToInt32( Request.Params["amphur"]);
+            return PartialView(waterwork.DAL.DALamphur.Getamphur(amphur_id));
+        }
+        public ActionResult Cb_place()
+        {
+            int place_id = Convert.ToInt32(Request.Params["place"]);
+            return PartialView(waterwork.DAL.DALplace.Getplace(place_id));
+        }
 
     }
 }
