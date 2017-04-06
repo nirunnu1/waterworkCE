@@ -71,8 +71,6 @@ namespace waterwork.Controllers
 
             return View( cus);
         }
-
-
         public ActionResult ReportView()
         {
             return View();
@@ -107,6 +105,28 @@ namespace waterwork.Controllers
         {
             int place_id = Convert.ToInt32(Request.Params["place"]);
             return PartialView(waterwork.DAL.DALplace.Getplace(place_id));
+        }
+        public ActionResult MisterDataEdit()
+        {
+            return View(waterwork.DAL.DALcustomer_services.Getcustomer_services_Wait());
+        }
+        public ActionResult MisterDataEditPartialView()
+        {
+            return PartialView("MisterDataEditPartialView", waterwork.DAL.DALcustomer_services.Getcustomer_services_Wait());
+        }
+        public ActionResult Misterupdate(MVCxGridViewBatchUpdateValues<customer_services, int> updateValues)
+        {
+            AssetDbContext context = new AssetDbContext();
+            foreach (var Item in updateValues.Update)
+            {
+               
+                var data = context.customer_services.Find(Item.Uid);
+                data.status = customer_services.Status.ready;
+                data.meter_id = Item.meter_id;
+                context.SaveChanges();
+ 
+            }
+            return PartialView("MisterDataEditPartialView", waterwork.DAL.DALcustomer_services.Getcustomer_services_Wait());
         }
 
     }

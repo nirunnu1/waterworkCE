@@ -17,9 +17,9 @@
         settings.Columns.Add("service_date");
         settings.Columns.Add("house_id");
         settings.Columns.Add("village_id");
-        settings.Columns.Add("place");
-        settings.Columns.Add("amphur");
-        settings.Columns.Add("province");
+        settings.Columns.Add("place.Name");
+        settings.Columns.Add("amphur.Name");
+        settings.Columns.Add("province.Name");
         settings.Columns.Add("status");
         settings.Columns.Add();
     }).Bind(Model).GetHtml()

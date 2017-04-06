@@ -368,6 +368,8 @@
     <Content Include="Views\Water_usage\Createinvoiceperiods.cshtml" />
     <Content Include="Views\Home\Cb_amphur.cshtml" />
     <Content Include="Views\Home\Cb_place.cshtml" />
+    <Content Include="Views\Home\MisterDataEdit.cshtml" />
+    <Content Include="Views\Home\MisterDataEditPartialView.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -387,6 +389,7 @@
     <Compile Include="Controllers\Water_usageController.cs" />
     <Compile Include="DAL\DALamphur.cs" />
     <Compile Include="DAL\DALCreateinvoiceperiods.cs" />
+    <Compile Include="DAL\DALcustomer_services.cs" />
     <Compile Include="DAL\DALplace.cs" />
     <Compile Include="DAL\DALprovince.cs" />
     <Compile Include="DAL\DALWater_usage.cs" />
