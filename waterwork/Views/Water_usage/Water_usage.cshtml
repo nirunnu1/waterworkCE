@@ -13,7 +13,7 @@
     settings.Items.AddGroupItem(g =>
     {
         g.Caption = "วันที่เก็บข้อมูล";
-        g.ColCount = 2;
+        g.ColCount = 3;
         g.Items.Add(s =>
         {
             s.FieldName = "item";
@@ -23,6 +23,20 @@
             set.Properties.DataSource = waterwork.DAL.DALCreateinvoiceperiods.Getinvoiceperiods();
             set.Properties.ValueField = "Uid";
             set.Properties.TextField = "date";
+        });
+        g.Items.Add(i =>
+        {
+            i.ShowCaption = DefaultBoolean.False;
+            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+
+            i.NestedExtension().RadioButtonList(s =>
+            {
+                s.Name = "radioButtonList";
+                s.Properties.RepeatDirection =
+                  RepeatDirection.Horizontal;
+                s.Properties.Items.Add("แบบออนไล",0).Selected = true;
+                s.Properties.Items.Add("แบบออฟไล",1);
+            });
         });
         g.Items.Add(i =>
         {
@@ -38,5 +52,4 @@
         });
     });
 }).GetHtml();
-
 }

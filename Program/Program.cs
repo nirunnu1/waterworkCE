@@ -1,5 +1,4 @@
-﻿using DevExpress.Office.Utils;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using waterwork.Models;
 
@@ -49,7 +48,7 @@ namespace Program
             }
             List<place> place = new List<place>();
 
-        place.Add(new place() { amphur_id = 1, Name = " เวียง" });
+            place.Add(new place() { amphur_id = 1, Name = " เวียง" });
             place.Add(new place() { amphur_id = 1, Name = " รอบเวียง" });
             place.Add(new place() { amphur_id = 1, Name = " บ้านดู่" });
             place.Add(new place() { amphur_id = 1, Name = " นางแล" });
@@ -212,9 +211,6 @@ namespace Program
             place.Add(new place() { amphur_id = 18, Name = " ปงน้อย" });
             place.Add(new place() { amphur_id = 18, Name = " โชคชัย" });
             place.Add(new place() { amphur_id = 18, Name = " หนองป่าก่อ" });
-
-
-
 
             foreach (var i in place)
             {

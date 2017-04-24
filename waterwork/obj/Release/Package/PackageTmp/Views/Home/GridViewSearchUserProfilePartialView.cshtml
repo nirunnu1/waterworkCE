@@ -24,9 +24,20 @@
         settings.Columns.Add("birthdate");
         settings.Columns.Add("house_id");
         settings.Columns.Add("village_id");
-        settings.Columns.Add("place");
-        settings.Columns.Add("amphur");
-        settings.Columns.Add("province");
+        settings.Columns.Add(s=> {
+            s.FieldName = "place.Name";
+            s.Caption = "ตำบล";
+        });
+        settings.Columns.Add(s=>
+        {
+            s.FieldName = "amphur.Name";
+            s.Caption = "อำเภอ";
+        }
+        );
+        settings.Columns.Add(s=> {
+            s.FieldName = "province.Name";
+            s.Caption = "จังหวัด";
+        });
         settings.Columns.Add("occupation");
         settings.Columns.Add("Email");
         settings.Columns.Add(s =>

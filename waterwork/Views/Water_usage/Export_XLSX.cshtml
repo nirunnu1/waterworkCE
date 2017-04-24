@@ -1,0 +1,8 @@
+﻿@using waterwork.DAL;
+@using (Html.BeginForm("ExportWithFormatConditionsResult", "Exporting"))
+{
+    @Html.Partial("ExportWithFormatConditionsOptionsPartial", DALWater_usage.GetWater_usage())
+    @Html.Partial("ExportWithFormatConditionsPartial", DALWater_usage.GetWater_usage())
+    <input type="hidden" class="format" style="display: none;" />
+}
+

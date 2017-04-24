@@ -60,21 +60,55 @@
         });
         g.Items.Add(s =>
         {
-            s.FieldName = "place";
-            s.Caption = "ตำบล";
-        });
-        g.Items.Add(s =>
-        {
-            s.FieldName = "province";
+            s.FieldName = "province_id";
             s.Caption = "จังหวัด";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
+            ComboBoxSettings Set = (ComboBoxSettings)s.NestedExtensionSettings;
+            Set.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+            Set.CallbackRouteValues = new { Controller = "Home", Action = "cb_province" };
+            Set.Name = "province_id";
+            Set.Properties.TextField = "Name";
+            Set.Properties.ValueField = "ID";
+            Set.Properties.DataSource = waterwork.DAL.DALprovince.Getprovince();
+            Set.Properties.EnableCallbackMode = true;
+            Set.Properties.ValueType = typeof(int);
+            Set.Properties.ClientSideEvents.SelectedIndexChanged = "function(s, e) { amphur_id.PerformCallback(); }";
         });
 
         g.Items.Add(s =>
         {
-            s.FieldName = "amphur";
+            s.FieldName = "amphur_id";
+            s.Name = "amphur_id";
             s.Caption = "อำเภอ";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
+            ComboBoxSettings Set = (ComboBoxSettings)s.NestedExtensionSettings;
+            Set.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+            Set.CallbackRouteValues = new { Controller = "Home", Action = "Cb_amphur" };
+            Set.Width = Unit.Percentage(100);
+            Set.Properties.TextField = "Name";
+            Set.Properties.ValueField = "ID";
+            Set.Properties.EnableCallbackMode = true;
+            Set.Properties.CallbackPageSize = 20;
+            Set.Properties.ClientSideEvents.BeginCallback = "function(s, e) { e.customArgs['amphur'] = province_id.GetValue(); }";
+            Set.Properties.ClientSideEvents.SelectedIndexChanged = "function(s, e) { place_id.PerformCallback(); }";
+        });
+        g.Items.Add(s =>
+        {
+            s.FieldName = "place_id";
+            s.Caption = "ตำบล";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
+            ComboBoxSettings Set = (ComboBoxSettings)s.NestedExtensionSettings;
+            Set.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+            Set.CallbackRouteValues = new { Controller = "Home", Action = "Cb_place" };
+            Set.Width = Unit.Percentage(100);
+            Set.Properties.TextField = "Name";
+            Set.Properties.ValueField = "ID";
+            Set.Properties.EnableCallbackMode = true;
+            Set.Properties.CallbackPageSize = 20;
+            Set.Properties.ClientSideEvents.BeginCallback = "function(s, e) { e.customArgs['place'] = amphur_id.GetValue(); }";
         });
     });
+
 
     settings.Items.Add(i =>
     {

@@ -1,6 +1,6 @@
 ﻿/*!
 * DevExtreme ASP.NET MVC Wrappers (dx.aspnet.mvc.js)
-* Version: 16.2.3
+* Version: 16.2.6
 *
 * Copyright (c) Developer Express Inc.
 * EULA: https://www.devexpress.com/Support/EULAs/DevExtreme.xml

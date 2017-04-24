@@ -22,8 +22,9 @@ namespace waterwork.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Water_usage(Guid item)
+        public ActionResult Water_usage(Guid item,int radioButtonList)
         {
+            if (radioButtonList ==1) { return RedirectToAction("Export_XLSX"); }
             Session["invoiceperiods_id"] = item;
             return RedirectToAction("Water_usageAdd");
         }
@@ -39,6 +40,16 @@ namespace waterwork.Controllers
             item.invoiceperiods_id = new Guid(Session["invoiceperiods_id"].ToString());
             DAL.DALWater_usage.InsertWater_usage(item);
             return View(DAL.DALWater_usage.GetWater_usage());
+        }
+        public ActionResult Export_XLSX()
+        {
+            var model = DAL.DALWater_usage.GetWater_usage();
+            return View(model);
+        }
+        public ActionResult ExportWithFormatConditionsPartial()
+        {
+            var model = DAL.DALWater_usage.GetWater_usage();
+            return PartialView("ExportWithFormatConditionsPartial", model);
         }
     }
 }

@@ -1,9 +1,9 @@
 /*!
 * DevExtreme (dx.web.ja.js)
-* Version: 16.2.3
-* Build date: Tue Dec 13 2016
+* Version: 16.2.6
+* Build date: Tue Mar 28 2017
 *
-* Copyright (c) 2012 - 2016 Developer Express Inc. ALL RIGHTS RESERVED
+* Copyright (c) 2012 - 2017 Developer Express Inc. ALL RIGHTS RESERVED
 * EULA: https://www.devexpress.com/Support/EULAs/DevExtreme.xml
 */
 "use strict";
