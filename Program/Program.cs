@@ -217,9 +217,6 @@ namespace Program
                 Context.place.Add(i);
                 Context.SaveChanges();
             }
-
-
-
         }
 
     }
