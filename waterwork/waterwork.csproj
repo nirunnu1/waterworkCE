@@ -374,6 +374,9 @@
     <Content Include="Views\Water_usage\ExportWithFormatConditionsOptionsPartial.cshtml" />
     <Content Include="Views\Shared\ToolbarExport.cshtml" />
     <Content Include="Views\Water_usage\ExportWithFormatConditionsPartial.cshtml" />
+    <Content Include="Views\Water_usage\invoiceperiods.cshtml" />
+    <Content Include="Views\bill\bill_index.cshtml" />
+    <Content Include="Views\bill\bill_dataview.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -389,9 +392,11 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="Controllers\billController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Water_usageController.cs" />
     <Compile Include="DAL\DALamphur.cs" />
+    <Compile Include="DAL\DALbill_Water.cs" />
     <Compile Include="DAL\DALCreateinvoiceperiods.cs" />
     <Compile Include="DAL\DALcustomer_services.cs" />
     <Compile Include="DAL\DALplace.cs" />

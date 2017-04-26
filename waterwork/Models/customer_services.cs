@@ -19,6 +19,8 @@ namespace waterwork.Models
 
         [Display(Name = "เลขมิสเตอ")]
         public int meter_id { get; set; }
+ 
+        public int? meter_First_unit { get; set; }
         [Display(Name = "วันที่ขอใช้งาน")]
         public DateTime service_date { get; set; }
         [Display(Name = "บ้านเลขที่")]

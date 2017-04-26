@@ -18,8 +18,16 @@
         group.Text = "เก็บข้อมูลน้ำประปา";
         group.Items.Add("สร้างงวดการออกใบแจ้งหนี้", "", "", "~/Water_usage/Createinvoiceperiods");
         group.Items.Add("เก็บข้อมูลน้ำประปา", "", "", "~/Water_usage/Water_usage");
-        
+
     });
+    settings.Groups.Add(group =>
+    {
+        group.Text = "ข้อมูลใบเสร็จ";
+        group.Items.Add("ข้อมูลใบเสร็จ", "", "", "~/bill/bill_index");
+        group.Items.Add("ออกรายงานการใช้น้ำประปา", "", "", "~/bill/bill_report");
+
+    });
+    
 }).GetHtml()
 </div>
 

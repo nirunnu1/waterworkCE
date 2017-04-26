@@ -1,5 +1,5 @@
 ﻿
-
+@using waterwork.DAL;
 @using (Html.BeginForm("Createinvoiceperiods", "Water_usage"))
 {
     @Html.DevExpress().FormLayout(settings =>
@@ -38,3 +38,7 @@
 }).GetHtml();
 
 }
+<div>
+    งวดการออกใบแจ้งหนี้
+</div>
+@Html.Partial("invoiceperiods",DALCreateinvoiceperiods.Getinvoiceperiods())

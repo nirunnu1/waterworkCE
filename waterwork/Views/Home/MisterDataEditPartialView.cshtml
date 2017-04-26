@@ -58,6 +58,8 @@
             s.Caption = "จังหวัด";
             s.ReadOnly = true;
         });
+        
         settings.Columns.Add("meter_id");
+        settings.Columns.Add("meter_First_unit");
     }).Bind(Model).GetHtml()
 

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<waterwork.Models.bill_Water_usage>
+@Html.DevExpress().GridView(settings =>
+{
+    settings.Name = "bill_dataview";
+    settings.KeyFieldName = "Uid";
+    settings.CallbackRouteValues = new { Controller = "bill", Action = "bill_dataview" };
+    settings.ClientSideEvents.BeginCallback = "function(s, e) { e.customArgs['Bid'] = item.GetValue(); }";
+    settings.Columns.Add("Uid");
+    settings.Columns.Add("water_usagefirst");
+    settings.Columns.Add("water_usageafter");
+    settings.Columns.Add("unit");
+    settings.Columns.Add("service_charge");
+    settings.Columns.Add("Minimum_rate");
+    settings.Columns.Add("price");
+}).Bind(Model).GetHtml()

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Web.Mvc;
+using waterwork.DAL;
 using waterwork.Models;
+using static waterwork.Models.Createinvoiceperiods;
 
 namespace waterwork.Controllers
 {
@@ -37,8 +39,20 @@ namespace waterwork.Controllers
         [HttpPost]
         public ActionResult Water_usageAdd(Water_usage item)
         {
-            item.invoiceperiods_id = new Guid(Session["invoiceperiods_id"].ToString());
-            DAL.DALWater_usage.InsertWater_usage(item);
+            AssetDbContext Context = new AssetDbContext();
+            var data = Context.Water_usage.Find(item.customer_services_id);
+            data.invoiceperiods_id = new Guid(Session["invoiceperiods_id"].ToString());
+            data.water_Unit = item.water_Unit;
+            Context.SaveChanges();
+            Session["invoiceperiods_id"] = data.invoiceperiods_id;
+            ViewBag.time = Session["invoiceperiods_id"];
+            if (DAL.DALWater_usage.GetWater_usage_inid(data.invoiceperiods_id)==0)
+            {
+                var i = Context.Createinvoiceperiods.Find(data.invoiceperiods_id);
+                i.status = Statusinvoiceperiods.ready;
+                Context.SaveChanges();
+                DALbill_Water.bill_Water_Add(data.invoiceperiods_id);
+            }
             return View(DAL.DALWater_usage.GetWater_usage());
         }
         public ActionResult Export_XLSX()
@@ -51,5 +65,11 @@ namespace waterwork.Controllers
             var model = DAL.DALWater_usage.GetWater_usage();
             return PartialView("ExportWithFormatConditionsPartial", model);
         }
+        public ActionResult invoiceperiods()
+        {
+            var item = DAL.DALCreateinvoiceperiods.Getinvoiceperiods();
+            return View(item);
+        }
+        
     }
 }

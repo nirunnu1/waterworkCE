@@ -1,0 +1,18 @@
+﻿
+@Html.DevExpress().GridView(
+    settings =>
+    {
+        settings.Name = "invoiceperiods";
+        settings.KeyFieldName = "Uid";
+        settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+        settings.SettingsPager.PageSize = 50;
+
+        settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
+        settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
+        settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+        settings.ControlStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+        settings.Columns.Add("date");
+        settings.Columns.Add("num");
+        settings.Columns.Add("status");
+
+    }).Bind(Model).GetHtml()

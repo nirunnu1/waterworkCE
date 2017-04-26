@@ -757,7 +757,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 04:04:30</publishTime>
     </File>
     <File Include="bin/waterwork.dll">
-      <publishTime>04/24/2017 19:31:07</publishTime>
+      <publishTime>04/26/2017 20:52:03</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>07/17/2013 17:03:52</publishTime>
@@ -1131,6 +1131,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
       <publishTime>03/17/2017 00:36:58</publishTime>
     </File>
+    <File Include="Views/bill/bill_dataview.cshtml">
+      <publishTime>04/26/2017 20:24:04</publishTime>
+    </File>
+    <File Include="Views/bill/bill_index.cshtml">
+      <publishTime>04/26/2017 19:12:01</publishTime>
+    </File>
     <File Include="Views/Home/AddServicesProfile.cshtml">
       <publishTime>04/06/2017 23:10:49</publishTime>
     </File>
@@ -1168,7 +1174,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/07/2017 00:52:13</publishTime>
     </File>
     <File Include="Views/Home/MisterDataEditPartialView.cshtml">
-      <publishTime>04/07/2017 01:24:07</publishTime>
+      <publishTime>04/26/2017 16:05:20</publishTime>
     </File>
     <File Include="Views/Home/ReportView.cshtml">
       <publishTime>04/04/2017 14:01:19</publishTime>
@@ -1177,7 +1183,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/17/2017 02:32:00</publishTime>
     </File>
     <File Include="Views/Shared/ContentLeftPartialView.cshtml">
-      <publishTime>04/07/2017 00:08:24</publishTime>
+      <publishTime>04/26/2017 16:09:40</publishTime>
     </File>
     <File Include="Views/Shared/DisplayTemplates/Boolean.cshtml">
       <publishTime>03/17/2017 00:37:03</publishTime>
@@ -1231,7 +1237,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/06/2017 23:10:03</publishTime>
     </File>
     <File Include="Views/Water_usage/Createinvoiceperiods.cshtml">
-      <publishTime>03/30/2017 13:44:18</publishTime>
+      <publishTime>04/26/2017 15:57:04</publishTime>
     </File>
     <File Include="Views/Water_usage/ExportWithFormatConditionsOptionsPartial.cshtml">
       <publishTime>04/07/2017 17:14:03</publishTime>
@@ -1242,11 +1248,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Water_usage/Export_XLSX.cshtml">
       <publishTime>04/07/2017 17:58:27</publishTime>
     </File>
+    <File Include="Views/Water_usage/invoiceperiods.cshtml">
+      <publishTime>04/26/2017 16:54:07</publishTime>
+    </File>
     <File Include="Views/Water_usage/Water_usage.cshtml">
       <publishTime>04/07/2017 16:59:27</publishTime>
     </File>
     <File Include="Views/Water_usage/Water_usageAdd.cshtml">
-      <publishTime>03/30/2017 13:26:27</publishTime>
+      <publishTime>04/26/2017 17:35:30</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>03/30/2017 13:39:00</publishTime>

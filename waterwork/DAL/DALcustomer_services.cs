@@ -15,5 +15,10 @@ namespace waterwork.DAL
             AssetDbContext Context = new AssetDbContext();
             return Context.customer_services.Where(x => x.status == customer_services.Status.Wait).ToList();
         }
+        public static IEnumerable Getcustomer_services_ready()
+        {
+            AssetDbContext Context = new AssetDbContext();
+            return Context.customer_services.Where(x => x.status == customer_services.Status.ready).ToList();
+        }
     }
 }

@@ -1,0 +1,34 @@
+﻿
+@Html.DevExpress().FormLayout(settings =>
+{
+    settings.Name = "formLayout";
+    settings.AlignItemCaptionsInAllGroups = true;
+    settings.Items.AddEmptyItem();
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.SettingsAdaptivity.AdaptivityMode = FormLayoutAdaptivityMode.SingleColumnWindowLimit;
+    settings.SettingsAdaptivity.SwitchToSingleColumnAtWindowInnerWidth = 800;
+    settings.Items.AddGroupItem(g =>
+    {
+        g.Caption = "วันที่เก็บข้อมูล";
+        g.ColCount = 3;
+        g.Items.Add(s =>
+        {
+            s.FieldName = "item";
+            s.Caption = "งวดการออกใบแจ้งหนี้";
+            s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
+            var set = s.NestedExtensionSettings as ComboBoxSettings;
+            set.Properties.DataSource = waterwork.DAL.DALCreateinvoiceperiods.Getinvoiceperiods();
+            set.Properties.ValueField = "Uid";
+            set.Properties.TextField = "date";
+            set.Properties.EnableCallbackMode = true;
+            set.Properties.ValueType = typeof(Guid);
+       
+            set.Properties.ClientSideEvents.SelectedIndexChanged = "function(s, e) { bill_dataview.PerformCallback(); }";
+
+        });
+    });
+}).GetHtml()
+@Html.Partial("bill_dataview")
+
+
+

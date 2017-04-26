@@ -1,4 +1,5 @@
-﻿
+﻿@ViewBag.time
+@{ Guid A = ViewBag.time;}
 @using (Html.BeginForm("Water_usageadd", "Water_usage", FormMethod.Post))
 {
     @Html.DevExpress().FormLayout(settings =>
@@ -19,9 +20,9 @@
             s.Caption = "รหัสมิสเตอร์";
             s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
             var set = s.NestedExtensionSettings as ComboBoxSettings;
-            set.Properties.DataSource = waterwork.Models.customer_services.Getcustomer_services();
+            set.Properties.DataSource = waterwork.DAL.DALWater_usage.GetWater_usage_id(A);
             set.Properties.ValueField = "Uid";
-            set.Properties.TextField = "meter_id";
+            set.Properties.TextField = "customer_services.meter_id";
 
         });
         g.Items.Add(s =>

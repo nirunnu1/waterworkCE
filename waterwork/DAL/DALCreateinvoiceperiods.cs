@@ -20,9 +20,27 @@ namespace waterwork.DAL
             if (item != null)
             {
                 item.Uid = Guid.NewGuid();
+                item.num = Context.customer_services.Where(x => x.status == customer_services.Status.ready).Count();
+                item.status = Createinvoiceperiods.Statusinvoiceperiods.Wait;
                 Context.Createinvoiceperiods.Add(item);
                 Context.SaveChanges();
+
+                foreach (var i in Context.customer_services.Where(x => x.status == customer_services.Status.ready))
+                {
+                    AssetDbContext add = new AssetDbContext();
+                    var data = new waterwork.Models.Water_usage()
+                    {
+                        Uid = Guid.NewGuid(),
+                        invoiceperiods_id = item.Uid,
+                        customer_services_id=i.Uid,
+                        water_Unit=0
+                    };
+                    add.Water_usage.Add(data);
+                    add.SaveChanges();
+                };
             }
+            
         }
+       
     }
 }

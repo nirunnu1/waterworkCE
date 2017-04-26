@@ -123,6 +123,7 @@ namespace waterwork.Controllers
                 var data = context.customer_services.Find(Item.Uid);
                 data.status = customer_services.Status.ready;
                 data.meter_id = Item.meter_id;
+                data.meter_First_unit = Item.meter_First_unit;
                 context.SaveChanges();
  
             }

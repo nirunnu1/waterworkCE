@@ -12,15 +12,18 @@ namespace waterwork.DAL
             AssetDbContext Context = new AssetDbContext();
             return Context.Water_usage.Where(x => x.customer_services.status == customer_services.Status.ready).ToList();
         }
-        public static void InsertWater_usage(Water_usage item)
+        public static IEnumerable GetWater_usage_id(Guid id)
         {
             AssetDbContext Context = new AssetDbContext();
-            if (item != null)
-            {
-                item.Uid = Guid.NewGuid();
-                Context.Water_usage.Add(item);
-                Context.SaveChanges();
-            }
+            var item = Context.Water_usage.Where(x => x.invoiceperiods_id == id && x.water_Unit == 0).ToList();
+            return item.ToList();
         }
+        public static int GetWater_usage_inid(Guid id)
+        {
+            AssetDbContext Context = new AssetDbContext();
+            int item = Context.Water_usage.Where(x => x.invoiceperiods_id == id && x.water_Unit == 0).Count();
+            return item;
+        }
+
     }
 }
