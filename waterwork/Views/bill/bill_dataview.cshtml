@@ -3,13 +3,58 @@
 {
     settings.Name = "bill_dataview";
     settings.KeyFieldName = "Uid";
+
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.SettingsPager.PageSize = 50;
+    settings.SettingsSearchPanel.Visible = true;
+    settings.SettingsSearchPanel.ShowClearButton = true;
+    settings.SettingsSearchPanel.ShowApplyButton = true;
+    settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
+    settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
+    settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+    settings.ControlStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+
+    settings.CommandColumn.Visible = true;
+    settings.CommandColumn.ShowSelectCheckbox = true;
+    settings.CommandColumn.SelectAllCheckboxMode =waterwork.DAL.GridViewSelectionDemoHelper.SelectAllButtonMode;
+
     settings.CallbackRouteValues = new { Controller = "bill", Action = "bill_dataview" };
     settings.ClientSideEvents.BeginCallback = "function(s, e) { e.customArgs['Bid'] = item.GetValue(); }";
-    settings.Columns.Add("Uid");
-    settings.Columns.Add("water_usagefirst");
+    settings.Columns.Add("Water_usage.customer_services.house_id");
+    settings.Columns.Add("Water_usage.customer_services.village_id");
+    settings.Columns.Add("Water_usage.customer_services.place_id");
+    settings.Columns.Add(set=>
+    {
+        set.FieldName = "water_usagefirst";
+        set.Caption = "";
+    });
     settings.Columns.Add("water_usageafter");
     settings.Columns.Add("unit");
     settings.Columns.Add("service_charge");
     settings.Columns.Add("Minimum_rate");
     settings.Columns.Add("price");
+    settings.Columns.Add(s =>
+    {
+        s.FieldName = "Uid";
+        s.Caption = "พิมพ์ใบเสร็จ";
+        s.ColumnType = MVCxGridViewColumnType.HyperLink;
+
+        HyperLinkProperties properties = s.PropertiesEdit as HyperLinkProperties;
+
+        properties.NavigateUrlFormatString = Url.Content("~/Admin/show_apprenprofile/{0}");
+
+        properties.Text = "พิมพ์ใบเสร็จ";
+    });
+    settings.Columns.Add(s =>
+    {
+        s.FieldName = "Uid";
+        s.Caption = "ยกเลิกใบเสร็จ";
+        s.ColumnType = MVCxGridViewColumnType.HyperLink;
+
+        HyperLinkProperties properties = s.PropertiesEdit as HyperLinkProperties;
+
+        properties.NavigateUrlFormatString = Url.Content("~/Admin/show_apprenprofile/{0}");
+
+        properties.Text = "ยกเลิกใบเสร็จ";
+    });
 }).Bind(Model).GetHtml()

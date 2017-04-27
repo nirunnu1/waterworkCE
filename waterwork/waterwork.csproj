@@ -377,6 +377,7 @@
     <Content Include="Views\Water_usage\invoiceperiods.cshtml" />
     <Content Include="Views\bill\bill_index.cshtml" />
     <Content Include="Views\bill\bill_dataview.cshtml" />
+    <Content Include="Views\bill\bill_report.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -403,6 +404,7 @@
     <Compile Include="DAL\DALprovince.cs" />
     <Compile Include="DAL\DALWater_usage.cs" />
     <Compile Include="DAL\Enumeration.cs" />
+    <Compile Include="DAL\GridViewSelectionDemoHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

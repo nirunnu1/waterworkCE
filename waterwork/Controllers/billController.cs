@@ -20,5 +20,17 @@ namespace waterwork.Controllers
             var item = Context.bill_Water_usage.Where(x=>x.Water_usage.invoiceperiods_id== id);
             return PartialView(item.ToList());
         }
+        public ActionResult bill_report()
+        {
+            return View();
+        }
+            public ActionResult bill_report_view()
+        {
+            Guid id = new Guid(Request.Params["Bid"]);
+            AssetDbContext Context = new AssetDbContext();
+            var item = Context.bill_Water_usage.Where(x => x.Water_usage.invoiceperiods_id == id);
+            return PartialView(item.ToList());
+        }
+
     }
 }

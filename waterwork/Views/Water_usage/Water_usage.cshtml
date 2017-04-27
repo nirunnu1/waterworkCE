@@ -38,6 +38,8 @@
                 s.Properties.Items.Add("แบบออฟไล",1);
             });
         });
+
+
         g.Items.Add(i =>
         {
             i.ShowCaption = DefaultBoolean.False;
@@ -52,4 +54,15 @@
         });
     });
 }).GetHtml();
+}
+@using (Html.BeginForm())
+{
+    @Html.DevExpress().UploadControl(settings =>
+{
+    settings.Name = "UploadControl";
+    settings.ShowProgressPanel = true;
+    settings.ShowClearFileSelectionButton = true;
+    settings.ShowUploadButton = true;
+    settings.Size = 30;
+}).GetHtml()
 }

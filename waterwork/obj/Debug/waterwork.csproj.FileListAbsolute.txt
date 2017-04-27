@@ -1330,3 +1330,4 @@ C:\GIT\waterworkCE\waterwork\obj\Debug\waterwork.csproj.GenerateResource.Cache
 C:\GIT\waterworkCE\waterwork\obj\Debug\waterwork.dll.licenses
 C:\GIT\waterworkCE\waterwork\obj\Debug\waterwork.dll
 C:\GIT\waterworkCE\waterwork\obj\Debug\waterwork.pdb
+C:\GIT\waterworkCE\waterwork\obj\Debug\waterwork.csprojResolveAssemblyReference.cache
