@@ -27,13 +27,39 @@
     {
         set.FieldName = "Water_usage.Createinvoiceperiods.date";
         set.SortOrder = DevExpress.Data.ColumnSortOrder.Descending;
+        set.Caption = "งวด";
     });
-    settings.Columns.Add("water_usagefirst");
-    settings.Columns.Add("water_usageafter");
-    settings.Columns.Add("unit");
-    settings.Columns.Add("service_charge");
-    settings.Columns.Add("Minimum_rate");
-    settings.Columns.Add("price");
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "water_usagefirst";
+        set.Caption = "หน่วยของน้ำเดือนก่อน ";
+    });
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "water_usageafter";
+        set.Caption = "เลขอ่าน ";
+    });
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "unit";
+        set.Caption = "จำนวนหน่วยที่ใช้ ";
+    });
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "service_charge";
+        set.Caption = "ค่าบริการเช่ามืสเตอร์ ";
+    });
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "Minimum_rate";
+        set.Caption = "ค่าบริการขั้นต่ำ";
+    });
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "price";
+        set.Caption = "จำนวนเงิน";
+    });
+
     settings.Columns.Add("status");
 
 

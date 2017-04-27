@@ -12,7 +12,7 @@
     settings.SettingsAdaptivity.SwitchToSingleColumnAtWindowInnerWidth = 800;
     settings.Items.AddGroupItem(g =>
     {
-        g.Caption = "งวดการออกใบแจ้งหนี้";
+        g.Caption = "สร้างงวดการออกใบแจ้งหนี้";
         g.ColCount = 2;
         g.Items.Add(s =>
         {
@@ -22,6 +22,8 @@
             var set = s.NestedExtensionSettings as DateEditSettings;
 
         });
+
+
         g.Items.Add(i =>
         {
             i.ShowCaption = DefaultBoolean.False;
@@ -34,11 +36,20 @@
                 s.UseSubmitBehavior = true;
             });
         });
+        g.Items.Add(s =>
+        {
+            s.Caption = " ";
+            s.NestedExtension().Label(i =>
+            {
+                i.Name = "label";
+                i.Text = "สร้างงวดการออกใบแจ้งหนี้ในฐานข้อมูลเพื่อให้ผู้ป้อนข้อมูลน้ำประปาใช้อ้างอิงในการบันทึกข้อมูลการใช้น้ำประปา";
+                i.ControlStyle.ForeColor = System.Drawing.Color.Red;
+            });
+
+        });
     });
 }).GetHtml();
 
 }
-<div>
-    งวดการออกใบแจ้งหนี้
-</div>
+
 @Html.Partial("invoiceperiods",DALCreateinvoiceperiods.Getinvoiceperiods())

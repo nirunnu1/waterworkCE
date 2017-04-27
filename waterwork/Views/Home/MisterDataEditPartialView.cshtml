@@ -58,8 +58,9 @@
             s.Caption = "จังหวัด";
             s.ReadOnly = true;
         });
-        
-        settings.Columns.Add("meter_id");
-        settings.Columns.Add("meter_First_unit");
+
+        settings.Columns.Add(s => { s.FieldName = "meter_id"; s.CellStyle.HorizontalAlign = HorizontalAlign.Center; s.Caption = "เลขมิเตอร์"; });
+
+        settings.Columns.Add("meter_First_unit").Caption="หน่วยมิเตอร์เริ่มต้น";
     }).Bind(Model).GetHtml()
 

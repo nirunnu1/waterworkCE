@@ -51,7 +51,13 @@ namespace waterwork.Models
         public string Email { get; set; }
 
         public ICollection<customer_services> customer_services { get; set; }
-
+        public string FullName
+        {
+            get
+            {
+                return firstname + "  " + lastname;
+            }
+        }
         public static IEnumerable GetSearchUserProfile()
         {
             AssetDbContext Context = new AssetDbContext();

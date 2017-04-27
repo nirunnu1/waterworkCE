@@ -20,19 +20,41 @@
 
     settings.CallbackRouteValues = new { Controller = "bill", Action = "bill_dataview" };
     settings.ClientSideEvents.BeginCallback = "function(s, e) { e.customArgs['Bid'] = item.GetValue(); }";
-    settings.Columns.Add("Water_usage.customer_services.house_id");
-    settings.Columns.Add("Water_usage.customer_services.village_id");
-    settings.Columns.Add("Water_usage.customer_services.place_id");
-    settings.Columns.Add(set=>
+    settings.Columns.Add(s=>
     {
-        set.FieldName = "water_usagefirst";
-        set.Caption = "";
+        s.FieldName = "Water_usage.Createinvoiceperiods.date";
+        s.Caption = "งวด";
     });
-    settings.Columns.Add("water_usageafter");
-    settings.Columns.Add("unit");
-    settings.Columns.Add("service_charge");
-    settings.Columns.Add("Minimum_rate");
-    settings.Columns.Add("price");
+    settings.Columns.Add(s =>
+    {
+        s.FieldName = "Uid";
+        s.Caption = "เลขที่ใบเสร็จ";
+    });
+    settings.Columns.Add(s=> {
+        s.FieldName = "Water_usage.customer_services.customer.FullName";
+        s.Caption = "ชื่อ ลูกค้า";
+    });
+    settings.Columns.Add(s =>
+    {
+        s.FieldName = "Water_usage.customer_services.meter_id";
+        s.Caption = "รหัสมิเตอร์";
+    });
+    settings.Columns.Add(s =>
+    {
+        s.FieldName = "unit";
+        s.Caption = "จำนวนหน่วยที่ใช้งาน";
+    });
+    settings.Columns.Add(s =>
+    {
+        s.FieldName = "price";
+        s.Caption = "จำนวนเงินค่าใช้น้ำ";
+    });
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "status";
+        set.Caption = "สถานะใบเสร็จ";
+    });
+
     settings.Columns.Add(s =>
     {
         s.FieldName = "Uid";

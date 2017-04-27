@@ -13,7 +13,7 @@
     settings.Items.AddGroupItem(g =>
     {
         g.Caption = "วันที่เก็บข้อมูล";
-        g.ColCount = 3;
+        g.ColCount = 2;
         g.Items.Add(s =>
         {
             s.FieldName = "item";
@@ -27,8 +27,6 @@
         g.Items.Add(i =>
         {
             i.ShowCaption = DefaultBoolean.False;
-            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
-
             i.NestedExtension().RadioButtonList(s =>
             {
                 s.Name = "radioButtonList";
@@ -41,7 +39,23 @@
         g.Items.Add(i =>
         {
             i.ShowCaption = DefaultBoolean.False;
-            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+            i.NestedExtension().UploadControl(s =>
+            {
+                
+                s.Name = "UploadControl";
+                s.ShowProgressPanel = true;
+                s.ShowClearFileSelectionButton = true;
+                s.ShowUploadButton = true;
+                s.Size = 30;
+
+            });
+        });
+
+
+        g.Items.Add(i =>
+        {
+            i.ShowCaption = DefaultBoolean.False;
+
             i.Width = 150;
             i.NestedExtension().Button(s =>
             {

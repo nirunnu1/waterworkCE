@@ -41,6 +41,10 @@ namespace waterwork.DAL
             }
             
         }
-       
+        public static IEnumerable GetinvoiceperiodsWait()
+        {
+            AssetDbContext Context = new AssetDbContext();
+            return Context.Createinvoiceperiods.Where(x=>x.status== Createinvoiceperiods.Statusinvoiceperiods.Wait).ToList();
+        }
     }
 }

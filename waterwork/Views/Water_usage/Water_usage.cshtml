@@ -13,29 +13,42 @@
     settings.Items.AddGroupItem(g =>
     {
         g.Caption = "วันที่เก็บข้อมูล";
-        g.ColCount = 3;
+        g.ColCount = 2;
         g.Items.Add(s =>
         {
             s.FieldName = "item";
             s.Caption = "งวดการออกใบแจ้งหนี้";
             s.NestedExtensionType = FormLayoutNestedExtensionItemType.ComboBox;
             var set = s.NestedExtensionSettings as ComboBoxSettings;
-            set.Properties.DataSource = waterwork.DAL.DALCreateinvoiceperiods.Getinvoiceperiods();
+            set.Properties.DataSource = waterwork.DAL.DALCreateinvoiceperiods.GetinvoiceperiodsWait();
             set.Properties.ValueField = "Uid";
             set.Properties.TextField = "date";
+           
         });
         g.Items.Add(i =>
         {
             i.ShowCaption = DefaultBoolean.False;
-            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
-
             i.NestedExtension().RadioButtonList(s =>
             {
                 s.Name = "radioButtonList";
                 s.Properties.RepeatDirection =
                   RepeatDirection.Horizontal;
-                s.Properties.Items.Add("แบบออนไล",0).Selected = true;
-                s.Properties.Items.Add("แบบออฟไล",1);
+                s.Properties.Items.Add("แบบออนไลน์",0).Selected = true;
+                s.Properties.Items.Add("แบบออฟไลน์",1);
+            });
+        });
+        g.Items.Add(i =>
+        {
+            i.ShowCaption = DefaultBoolean.False;
+            i.NestedExtension().UploadControl(s =>
+            {
+                
+                s.Name = "UploadControl";
+                s.ShowProgressPanel = true;
+                s.ShowClearFileSelectionButton = true;
+                s.ShowUploadButton = true;
+                s.Size = 30;
+
             });
         });
 
@@ -43,7 +56,7 @@
         g.Items.Add(i =>
         {
             i.ShowCaption = DefaultBoolean.False;
-            i.HorizontalAlign = FormLayoutHorizontalAlign.Right;
+
             i.Width = 150;
             i.NestedExtension().Button(s =>
             {
@@ -54,15 +67,4 @@
         });
     });
 }).GetHtml();
-}
-@using (Html.BeginForm())
-{
-    @Html.DevExpress().UploadControl(settings =>
-{
-    settings.Name = "UploadControl";
-    settings.ShowProgressPanel = true;
-    settings.ShowClearFileSelectionButton = true;
-    settings.ShowUploadButton = true;
-    settings.Size = 30;
-}).GetHtml()
 }

@@ -16,12 +16,14 @@
         settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
         settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
         settings.ControlStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
-        settings.Columns.Add("meter_id");
+        settings.Columns.Add(s=> { s.FieldName = "meter_id";s.CellStyle.HorizontalAlign = HorizontalAlign.Center;s.Caption = "เลขมิเตอร์"; });
         settings.Columns.Add("house_id");
         settings.Columns.Add("village_id");
-        settings.Columns.Add("place");
-        settings.Columns.Add("amphur");
-        settings.Columns.Add("status");
+        settings.Columns.Add("place.Name").Caption=("ตำบล");
+        settings.Columns.Add("amphur.Name").Caption=("อำเภอ");
+        settings.Columns.Add("status").Caption="สถานะการติดตั้ง";
+        settings.Styles.Header.HorizontalAlign = HorizontalAlign.Center;
+        settings.Styles.Table.HorizontalAlign = HorizontalAlign.Center;
     }).Bind(Model).GetHtml()
 
 

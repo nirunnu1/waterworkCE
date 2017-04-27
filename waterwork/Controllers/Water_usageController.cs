@@ -67,19 +67,32 @@ namespace waterwork.Controllers
         {
             AssetDbContext Context = new AssetDbContext();
             var data = Context.Water_usage.Find(item.customer_services_id);
-            data.invoiceperiods_id = new Guid(Session["invoiceperiods_id"].ToString());
-            data.water_Unit = item.water_Unit;
-            Context.SaveChanges();
+            int water_usagefirst;
+            bill_Water_usage[] bill = Context.bill_Water_usage.Where(x => x.Water_usage.customer_services_id == data.customer_services_id).OrderByDescending(x => x.Water_usage.Createinvoiceperiods.date).ToArray();
+            Water_usage[] cus = Context.Water_usage.Where(x => x.Uid == item.customer_services_id).ToArray();
+            if (bill.Count() == 0) { water_usagefirst = cus[0].customer_services.meter_First_unit.Value; }
+            else { water_usagefirst = bill[0].water_usageafter; }
             Session["invoiceperiods_id"] = data.invoiceperiods_id;
             ViewBag.time = Session["invoiceperiods_id"];
-            if (DAL.DALWater_usage.GetWater_usage_inid(data.invoiceperiods_id)==0)
+            if (item.water_Unit > water_usagefirst)
             {
-                var i = Context.Createinvoiceperiods.Find(data.invoiceperiods_id);
-                i.status = Statusinvoiceperiods.ready;
+
+                data.invoiceperiods_id = new Guid(Session["invoiceperiods_id"].ToString());
+                data.water_Unit = item.water_Unit;
                 Context.SaveChanges();
-                DALbill_Water.bill_Water_Add(data.invoiceperiods_id);
+                if (DAL.DALWater_usage.GetWater_usage_inid(data.invoiceperiods_id) == 0)
+                {
+                    var i = Context.Createinvoiceperiods.Find(data.invoiceperiods_id);
+                    i.status = Statusinvoiceperiods.ready;
+                    Context.SaveChanges();
+                    DALbill_Water.bill_Water_Add(data.invoiceperiods_id);
+                }
+                return View(DAL.DALWater_usage.GetWater_usage());
             }
+            ViewBag.error = "หน่วยที่ใช้ไม่ถูกต้อง หน่วยเดือนก่อนหน้า : " + water_usagefirst;
+            
             return View(DAL.DALWater_usage.GetWater_usage());
+        
         }
         public ActionResult Export_XLSX()
         {
@@ -94,7 +107,7 @@ namespace waterwork.Controllers
         public ActionResult invoiceperiods()
         {
             var item = DAL.DALCreateinvoiceperiods.Getinvoiceperiods();
-            return View(item);
+            return PartialView(item);
         }
         
     }

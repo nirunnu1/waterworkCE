@@ -6,13 +6,31 @@
         settings.KeyFieldName = "Uid";
         settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
         settings.SettingsPager.PageSize = 50;
-
+        settings.CallbackRouteValues = new { Controller = "Water_usage", Action = "invoiceperiods" };
         settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
         settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
         settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
         settings.ControlStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
-        settings.Columns.Add("date");
-        settings.Columns.Add("num");
-        settings.Columns.Add("status");
+        settings.Columns.Add(s=> {
+            s.FieldName = "date";
+            s.Caption = "งวดการออกใบแจ้งหนี้";
+            s.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+            s.SortOrder = DevExpress.Data.ColumnSortOrder.Ascending;
+        });
+        settings.Columns.Add(s=> {
+            s.FieldName = "num";
+            s.Caption = "จำนวนมิสเตอร์";
+            s.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+        });
+        settings.Columns.Add(s=> {
+            s.FieldName = "status";
+            s.Caption = "สถานะการป้อนข้อมูลน้ำประปา";
+            s.HeaderStyle.HorizontalAlign = HorizontalAlign.Center;
+        });
+        settings.ControlStyle.HorizontalAlign = HorizontalAlign.Center;
+
+        
+        settings.ControlStyle.HorizontalAlign = HorizontalAlign.Center;
+
 
     }).Bind(Model).GetHtml()
