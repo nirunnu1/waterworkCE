@@ -1,5 +1,9 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
 using System.Web.Mvc;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 using waterwork.DAL;
 using waterwork.Models;
 using static waterwork.Models.Createinvoiceperiods;
@@ -8,7 +12,7 @@ namespace waterwork.Controllers
 {
     public class Water_usageController : Controller
     {
-        // GET: Water_usage
+        private             AssetDbContext context = new AssetDbContext();
         public ActionResult Createinvoiceperiods()
         {
             return View();
@@ -26,10 +30,32 @@ namespace waterwork.Controllers
         [HttpPost]
         public ActionResult Water_usage(Guid item,int radioButtonList)
         {
-            if (radioButtonList ==1) { return RedirectToAction("Export_XLSX"); }
+            if (radioButtonList ==1) { return RedirectToAction("ExportToExcel",new {item=item }); }
             Session["invoiceperiods_id"] = item;
             return RedirectToAction("Water_usageAdd");
         }
+        public ActionResult ExportToExcel(Guid item)
+        {
+            GridView gv = new GridView();
+            gv.DataSource = context.Water_usage.Where(x=>x.invoiceperiods_id == item).Select(
+                x=>new { meter_id= x.customer_services.meter_id,
+                         Unit= x.water_Unit
+            }).ToList();
+            gv.DataBind();
+            Response.ClearContent();
+            Response.Buffer = true;
+            Response.AddHeader("content-disposition", "attachment; filename=Excel.xls");
+            Response.ContentType = "application/ms-excel";
+            Response.Charset = "";
+            StringWriter sw = new StringWriter();
+            HtmlTextWriter htw = new HtmlTextWriter(sw);
+            gv.RenderControl(htw);
+            Response.Output.Write(sw.ToString());
+            Response.Flush();
+            Response.End();
+            return RedirectToAction("Index", "Water_usage");
+        }
+
         public ActionResult Water_usageAdd(string item)
         {
             ViewBag.time = Session["invoiceperiods_id"];

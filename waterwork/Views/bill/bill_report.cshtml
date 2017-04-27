@@ -1,1 +1,35 @@
 ﻿
+@model IEnumerable<waterwork.Models.customer_services>
+@Html.DevExpress().GridView(settings =>
+{
+    settings.Name = "bill_report";
+    settings.KeyFieldName = "Uid";
+    settings.CallbackRouteValues = new {Controller ="bill",Action = "bill_report" };
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.SettingsPager.PageSize = 50;
+    settings.SettingsSearchPanel.Visible = true;
+    settings.SettingsSearchPanel.ShowClearButton = true;
+    settings.SettingsSearchPanel.ShowApplyButton = true;
+    settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
+    settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
+    settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+    settings.ControlStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "house_id";
+    });
+    settings.Columns.Add("village_id");
+    settings.Columns.Add("place_id");
+    settings.Columns.Add("amphur_id");
+    settings.Columns.Add("province_id");
+    settings.Columns.Add(s =>
+    {
+        s.FieldName = "Uid";
+        s.Caption = "ออกรายงานการใช้น้ำประปา";
+        s.ColumnType = MVCxGridViewColumnType.HyperLink;
+        HyperLinkProperties properties = s.PropertiesEdit as HyperLinkProperties;
+        properties.NavigateUrlFormatString = Url.Content("~/bill/bill_report_dataview/{0}");
+        properties.Text = "ออกรายงานการใช้น้ำประปา";
+    });
+
+}).Bind(Model).GetHtml()

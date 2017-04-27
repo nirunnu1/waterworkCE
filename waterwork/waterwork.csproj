@@ -378,6 +378,7 @@
     <Content Include="Views\bill\bill_index.cshtml" />
     <Content Include="Views\bill\bill_dataview.cshtml" />
     <Content Include="Views\bill\bill_report.cshtml" />
+    <Content Include="Views\bill\bill_report_dataview.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

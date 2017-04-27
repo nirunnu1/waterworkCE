@@ -1,0 +1,46 @@
+﻿@model IEnumerable<waterwork.Models.bill_Water_usage>
+
+@using (Html.BeginForm("ExportTo", "bill",new { id = @ViewBag.id }))
+{
+    <div class="OptionsBottomMargin">
+        @Html.Partial("ToolbarExport", waterwork.DAL.GridViewExportDemoHelper.ExportFormatsInfo.Keys)
+    </div>
+    <p class="Note">
+        <strong>Note:</strong> 
+    </p>
+
+    @Html.DevExpress().GridView(settings =>
+{
+    settings.Name = "bill_Water_usage";
+    settings.KeyFieldName = "Uid";
+    settings.CallbackRouteValues = new { Controller = "bill", Action = "bill_report_dataview" };
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.SettingsPager.PageSize = 50;
+    settings.SettingsSearchPanel.Visible = true;
+    settings.SettingsSearchPanel.ShowClearButton = true;
+    settings.SettingsSearchPanel.ShowApplyButton = true;
+    settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
+    settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
+    settings.ControlStyle.Border.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(0);
+    settings.ControlStyle.BorderBottom.BorderWidth = System.Web.UI.WebControls.Unit.Pixel(1);
+    settings.Columns.Add(set =>
+    {
+        set.FieldName = "Water_usage.Createinvoiceperiods.date";
+        set.SortOrder = DevExpress.Data.ColumnSortOrder.Descending;
+    });
+    settings.Columns.Add("water_usagefirst");
+    settings.Columns.Add("water_usageafter");
+    settings.Columns.Add("unit");
+    settings.Columns.Add("service_charge");
+    settings.Columns.Add("Minimum_rate");
+    settings.Columns.Add("price");
+    settings.Columns.Add("status");
+
+
+}).Bind(Model).GetHtml()
+
+}
+
+
+
+
