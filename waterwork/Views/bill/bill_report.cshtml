@@ -19,9 +19,9 @@
         set.FieldName = "house_id";
     });
     settings.Columns.Add("village_id");
-    settings.Columns.Add("place_id");
-    settings.Columns.Add("amphur_id");
-    settings.Columns.Add("province_id");
+    settings.Columns.Add("place.Name").Caption = ("ตำบล");
+    settings.Columns.Add("amphur.Name").Caption = ("อำเภอ");
+    settings.Columns.Add("province.Name").Caption="จังหวัด";
     settings.Columns.Add(s =>
     {
         s.FieldName = "Uid";

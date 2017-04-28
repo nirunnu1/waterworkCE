@@ -27,9 +27,8 @@ namespace waterwork.DAL
                 Context.SaveChanges();
             }
         }
-        public static int water_usagefirst(Guid id )
-        {
-            int unit;
+        public static int water_usagefirst(Guid id)
+        {       
             AssetDbContext Context = new AssetDbContext();
             bill_Water_usage [] item = Context.bill_Water_usage.Where(x=>x.Water_usage.customer_services_id==id).OrderBy(x=>x.water_usagefirst).ToArray();
             if (item.Count()==0)
