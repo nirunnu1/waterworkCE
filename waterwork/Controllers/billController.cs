@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Web.Mvc;
-using DevExpress.Web.Mvc;
-using DevExpress.XtraReports.UI;
-using System.Drawing;
-using DevExpress.XtraPrinting.Shape;
 using static waterwork.DAL.GridViewExportDemoHelper;
 using waterwork.DAL;
 

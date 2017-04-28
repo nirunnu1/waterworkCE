@@ -14,20 +14,18 @@ namespace waterwork.Models
         [ForeignKey("Water_usage")]
         public Guid Water_usage_id { get; set; }
         public virtual Water_usage Water_usage { get; set; }
+        [Display(Name = "หน่วยของน้ำเดือนก่อน")]
 
-        //หน่วยของน้ำเดือนก่อน 
         public int water_usagefirst { get; set; }
-        //เลขอ่าน
+        [Display(Name = "เลขอ่าน")]
         public int water_usageafter { get; set; }
-        //จำนวนหน่วยที่ใช้
+        [Display(Name = "จำนวนหน่วยที่ใช้")]
         public int unit { get; set; }
-        //ค่าบริการ
+        [Display(Name = "ค่าบริการ")]
         public int service_charge { get; set; }
-        //ขั้นต่ำ
+        [Display(Name = "ขั้นต่ำ")]
         public int Minimum_rate { get; set; }
-       /// <summary>
-       /// จำนวนเงิน 
-       /// </summary>
+         [Display(Name = "จำนวนเงิน")]
         public int price { get; set; }
         public Statusbill status { get; set; }
         public enum Statusbill { Wait = 0, ready = 1 }

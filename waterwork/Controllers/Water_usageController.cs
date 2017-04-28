@@ -12,7 +12,7 @@ namespace waterwork.Controllers
 {
     public class Water_usageController : Controller
     {
-        private             AssetDbContext context = new AssetDbContext();
+        private static AssetDbContext Context = new AssetDbContext();
         public ActionResult Createinvoiceperiods()
         {
             return View();
@@ -37,7 +37,7 @@ namespace waterwork.Controllers
         public ActionResult ExportToExcel(Guid item)
         {
             GridView gv = new GridView();
-            gv.DataSource = context.Water_usage.Where(x=>x.invoiceperiods_id == item).Select(
+            gv.DataSource = Context.Water_usage.Where(x=>x.invoiceperiods_id == item).Select(
                 x=>new { meter_id= x.customer_services.meter_id,
                          Unit= x.water_Unit
             }).ToList();
@@ -65,7 +65,6 @@ namespace waterwork.Controllers
         [HttpPost]
         public ActionResult Water_usageAdd(Water_usage item)
         {
-            AssetDbContext Context = new AssetDbContext();
             var data = Context.Water_usage.Find(item.customer_services_id);
             int water_usagefirst;
             bill_Water_usage[] bill = Context.bill_Water_usage.Where(x => x.Water_usage.customer_services_id == data.customer_services_id).OrderByDescending(x => x.Water_usage.Createinvoiceperiods.date).ToArray();

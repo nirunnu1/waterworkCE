@@ -18,6 +18,8 @@ namespace waterwork.Models
         public Guid invoiceperiods_id { get; set; }
         public virtual Createinvoiceperiods Createinvoiceperiods { get; set; }
 
+        [Required]
+        [Display(Name = "จำนวนหน่วยที่ใช้")]
         public int water_Unit{ get; set; }
 
         public ICollection<bill_Water_usage> bill_Water_usage { get; set; }

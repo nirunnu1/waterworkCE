@@ -5,9 +5,10 @@ namespace waterwork.DAL
 {
     public class DALbill_Water
     {
+        private static AssetDbContext Context = new AssetDbContext();
         public static void bill_Water_Add(Guid id)
         {
-            AssetDbContext Context = new AssetDbContext();
+            
             var Water_use = Context.Water_usage.Where(x=>x.invoiceperiods_id==id).ToList();
             foreach (var i in Water_use)
             {
@@ -29,7 +30,7 @@ namespace waterwork.DAL
         }
         public static int water_usagefirst(Guid id)
         {       
-            AssetDbContext Context = new AssetDbContext();
+
             bill_Water_usage [] item = Context.bill_Water_usage.Where(x=>x.Water_usage.customer_services_id==id).OrderBy(x=>x.water_usagefirst).ToArray();
             if (item.Count()==0)
             {
