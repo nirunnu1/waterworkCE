@@ -37,10 +37,13 @@ namespace waterwork.Controllers
         public ActionResult ExportToExcel(Guid item)
         {
             GridView gv = new GridView();
-            gv.DataSource = Context.Water_usage.Where(x=>x.invoiceperiods_id == item).Select(
-                x=>new { meter_id= x.customer_services.meter_id,
-                         Unit= x.water_Unit
-            }).ToList();
+            gv.DataSource = Context.Water_usage.Where(x => x.invoiceperiods_id == item).Select(
+               x => new {
+                   meter_id = x.customer_services.meter_id,
+                   firstname = x.customer_services.customer.firstname,
+                   lastname = x.customer_services.customer.lastname,
+                   Unit = x.water_Unit
+               }).ToList();
             gv.DataBind();
             Response.ClearContent();
             Response.Buffer = true;
